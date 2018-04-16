@@ -18,6 +18,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="CodefictionApp\app\NewFolder\**" />
+    <Content Remove="CodefictionApp\app\NewFolder\**" />
+    <EmbeddedResource Remove="CodefictionApp\app\NewFolder\**" />
+    <None Remove="CodefictionApp\app\NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Autofac" Version="4.7.0" />
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.2.2" />
     <PackageReference Include="AWSSDK.S3" Version="3.3.18" />

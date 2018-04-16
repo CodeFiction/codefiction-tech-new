@@ -30,7 +30,7 @@ export default createServerRenderer((params: BootFuncParams) => {
     response.globals.transferData = createTransferScript({
       someData: 'Transfer this to the client on the window.TRANSFER_CACHE {} object',
       fromDotnet: params.data.thisCameFromDotNET // example of data coming from dotnet, in HomeController
-    });
+      });
 
     return ({
       html: response.html,
