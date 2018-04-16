@@ -17,7 +17,6 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
 
-
   <ItemGroup>
     <PackageReference Include="Autofac" Version="4.7.0" />
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.2.2" />
@@ -43,9 +42,15 @@
     <None Include="wwwroot\Views\Home\master.sshtml" />
   </ItemGroup>
 
-  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+  <Target Name="PreBuild" BeforeTargets="PreBuildEvent" Condition="'$(Configuration)'=='Debug'">
+    <Exec Command="yarn install" />
     <Exec Command="ng build --env=dev --app 0 --output-hashing=false" />
     <Exec Command="ng build --env=dev --app 1 --output-hashing=false" />
   </Target>
-
+  
+  <Target Name="PreBuild" BeforeTargets="PreBuildEvent" Condition="'$(Configuration)'=='Release'">
+    <Exec Command="yarn install" />
+    <Exec Command="ng build --prod --app 0 --output-hashing=false" />
+    <Exec Command="ng build --prod --app 1 --output-hashing=false" />
+  </Target>
 </Project>
