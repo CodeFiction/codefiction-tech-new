@@ -1,0 +1,13 @@
+﻿@Master['master.sshtml']
+
+@Section['Content']
+  @Model.SpaHtml
+@EndSection
+
+@Section['Scripts']
+<script src="~/dist/scripts.bundle.js"></script>
+<script src="~/dist/inline.bundle.js"></script>
+<script src="~/dist/polyfills.bundle.js"></script>
+<script src="~/dist/vendor.bundle.js"></script>
+<script src="~/dist/main.bundle.js"></script>
+@EndSection
