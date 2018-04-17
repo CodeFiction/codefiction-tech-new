@@ -1,25 +1,26 @@
-import { Component, OnInit, OnDestroy, Inject, ViewEncapsulation, RendererFactory2, PLATFORM_ID, Injector } from "@angular/core";
-import { Router, NavigationEnd, ActivatedRoute, PRIMARY_OUTLET } from "@angular/router";
-import { Meta, Title, DOCUMENT, MetaDefinition } from "@angular/platform-browser";
-import { Subscription } from "rxjs/Subscription";
+import { Component, OnInit, OnDestroy, Inject, ViewEncapsulation, RendererFactory2, PLATFORM_ID, Injector } from '@angular/core';
+import { Router, NavigationEnd, ActivatedRoute, PRIMARY_OUTLET } from '@angular/router';
+import { Meta, Title, DOCUMENT, MetaDefinition } from '@angular/platform-browser';
+import { Subscription } from 'rxjs/Subscription';
 import 'rxjs/add/operator/filter';
-import 'rxjs/add/operator/mergeMap'
-import { isPlatformServer } from "@angular/common";
-import { LinkService } from "./shared/link.service";
+import 'rxjs/add/operator/mergeMap';
+import 'rxjs/add/operator/map';
+import { isPlatformServer } from '@angular/common';
+import { LinkService } from './shared/link.service';
 
 // i18n support
-import { REQUEST } from "@nguniversal/aspnetcore-engine/tokens";
+import { REQUEST } from '@nguniversal/aspnetcore-engine/tokens';
 
 @Component({
-  selector: "app-root",
-  templateUrl: "./app.component.html",
-  styleUrls: ["./app.component.css"]
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit, OnDestroy {
     // This will go at the END of your title for example "Home - Angular Universal..." <-- after the dash (-)
-    private endPageTitle: string = "Angular Universal and ASP.NET Core Starter";
+    private endPageTitle = 'Angular Universal and ASP.NET Core Starter';
     // If no Title is provided, we'll use a default one before the dash(-)
-    private defaultPageTitle: string = "My App";
+    private defaultPageTitle = 'My App';
 
     private routerSub$: Subscription;
     private request;
@@ -56,10 +57,10 @@ export class AppComponent implements OnInit, OnDestroy {
             .filter(event => event instanceof NavigationEnd)
             .map(() => this.activatedRoute)
             .map(route => {
-                while (route.firstChild) route = route.firstChild;
+                while (route.firstChild) { route = route.firstChild; }
                 return route;
             })
-            .filter(route => route.outlet === "primary")
+            .filter(route => route.outlet === 'primary')
             .mergeMap(route => route.data)
             .subscribe((event) => {
                 this.setMetaAndLinks(event);
@@ -69,14 +70,14 @@ export class AppComponent implements OnInit, OnDestroy {
     private setMetaAndLinks(event) {
 
         // Set Title if available, otherwise leave the default Title
-        const title = event["title"]
-            ? `${event["title"]} - ${this.endPageTitle}`
+        const title = event['title']
+            ? `${event['title']} - ${this.endPageTitle}`
             : `${this.defaultPageTitle} - ${this.endPageTitle}`;
 
         this.title.setTitle(title);
 
-        const metaData = event["meta"] || [];
-        const linksData = event["links"] || [];
+        const metaData = event['meta'] || [];
+        const linksData = event['links'] || [];
 
         for (let i = 0; i < metaData.length; i++) {
             this.meta.updateTag(metaData[i]);

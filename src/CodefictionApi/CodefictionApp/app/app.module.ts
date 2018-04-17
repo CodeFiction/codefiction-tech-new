@@ -12,16 +12,6 @@ import { NavMenuComponent } from './components/navmenu/navmenu.component';
 import { HomeComponent } from './containers/home.component';
 
 import { LinkService } from './shared/link.service';
-import { ORIGIN_URL, REQUEST } from '@nguniversal/aspnetcore-engine/tokens';
-
-export function getOriginUrl() {
-    return window.location.origin;
-}
-
-export function getRequest() {
-    // the Request object only lives on the server
-    return { cookie: document.cookie };
-}
 
 const appRoutes: Routes = [{
         path: '',
@@ -33,6 +23,7 @@ const appRoutes: Routes = [{
 
         // *** SEO Magic ***
         // We're using "data" in our Routes to pass in our <title> <meta> <link> tag information
+        // tslint:disable-next-line:max-line-length
         // Note: This is only happening for ROOT level Routes, you'd have to add some additional logic if you wanted this for Child level routing
         // When you change Routes it will automatically append these to your document for you on the Server-side
         //  - check out app.component.ts to see how it's doing this
@@ -52,11 +43,15 @@ const appRoutes: Routes = [{
         NavMenuComponent,
         HomeComponent
     ],
-    imports: [
+  imports: [
+        CommonModule,
         // To support Universal rendering. The application ID can be any identifier which is unique on the page.
-        BrowserModule.withServerTransition({ appId: 'my-app-site' }),
+        BrowserModule.withServerTransition({
+           appId: 'my-app-site'
+        }),
         BrowserModule,
         HttpClientModule,
+        TransferHttpCacheModule,
         BrowserTransferStateModule,
         FormsModule,
 
@@ -67,16 +62,7 @@ const appRoutes: Routes = [{
                 initialNavigation: 'enabled'
             })
     ],
-    providers: [{
-        // We need this for our Http calls since they'll be using an ORIGIN_URL provided in main.server
-        // (Also remember the Server requires Absolute URLs)
-        provide: ORIGIN_URL,
-        useFactory: getOriginUrl
-    }, {
-        // The server provides these in main.server
-        provide: REQUEST,
-        useFactory: getRequest
-        }, LinkService],
+    providers: [LinkService],
     bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModuleShared { }

@@ -1,29 +1,31 @@
 import { NgModule } from '@angular/core';
 import { ServerModule } from '@angular/platform-server';
+import { BrowserModule } from '@angular/platform-browser';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 
-import { AppModule } from './app.module';
+import { AppModuleShared } from './app.module';
 import { AppComponent } from './app.component';
-import { ServerTransferStateModule } from '../modules/transfer-state/server-transfer-state.module';
-import { TransferState } from '../modules/transfer-state/transfer-state';
-import { HttpClientModule } from '@angular/common/http';
+import { ServerTransferStateModule } from '@angular/platform-server';
+
+import { PrebootModule } from 'preboot';
 
 @NgModule({
-  imports: [
-    // The AppServerModule should import your AppModule followed
-    // by the ServerModule from @angular/platform-server.
-    AppModule,
-    ServerModule,
-    ServerTransferStateModule,
-    HttpClientModule
-  ],
-  // Since the bootstrapped component is not inherited from your
-  // imported AppModule, it needs to be repeated here.
   bootstrap: [AppComponent],
-})
-export class AppServerModule {
-  constructor(private transferState: TransferState) { }
+  imports: [
+    // Our Common AppModule
+    AppModuleShared,
 
-  ngOnBootstrap = () => {
-    this.transferState.inject();
-  }
+    ServerModule,
+    PrebootModule.withConfig({ appRoot: 'app-root' }),
+    NoopAnimationsModule,
+
+    // HttpTransferCacheModule still needs fixes for 5.0
+    //   Leave this commented out for now, as it breaks Server-renders
+    //   Looking into fixes for this! - @MarkPieszak
+    // ServerTransferStateModule // <-- broken for the time-being with ASP.NET
+  ]
+})
+export class AppModule {
+
+  constructor() { }
 }

@@ -11,10 +11,10 @@
     "test.ts",
     "**/*.spec.ts"
   ],
-  // Add "angularCompilerOptions" with the AppServerModule you wrote
+  // Add "angularCompilerOptions" with the AppModule you wrote
   // set as the "entryModule".
   "angularCompilerOptions": {
     "genDir": "ngfactory",
-    "entryModule": "app/app.server.module#AppServerModule"
+    "entryModule": "app/app.server.module#AppModule"
   }
 }

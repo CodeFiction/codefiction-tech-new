@@ -1,7 +1,7 @@
 import 'zone.js/dist/zone-node';
 import './polyfills.server';
 
-import { AppServerModule } from './app/app.server.module';
+import { AppModule } from './app/app.server.module';
 import { enableProdMode } from '@angular/core';
 import { INITIAL_CONFIG } from '@angular/platform-server';
 // import { APP_BASE_HREF } from '@angular/common';
@@ -18,7 +18,7 @@ export default createServerRenderer((params: BootFuncParams) => {
   // Platform-server provider configuration
   const setupOptions: IEngineOptions = {
     appSelector: '<app-root></app-root>',
-    ngModule: AppServerModule,
+    ngModule: AppModule,
     request: params,
     providers: [
       // Optional - Any other Server providers you want to pass (remember you'll have to provide them for the Browser as well)
