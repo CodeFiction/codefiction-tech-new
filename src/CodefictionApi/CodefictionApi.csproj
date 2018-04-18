@@ -20,13 +20,11 @@
     <PackageReference Include="AWSSDK.S3" Version="3.3.18" />
     <PackageReference Include="AWSSDK.Extensions.NETCore.Setup" Version="3.3.5" />
     <PackageReference Include="Amazon.Lambda.AspNetCoreServer" Version="2.0.2" />
-    <PackageReference Include="Microsoft.AspNetCore" Version="2.0.2" />
-    <PackageReference Include="Microsoft.AspNetCore.NodeServices" Version="2.0.3" />
-    <PackageReference Include="Microsoft.AspNetCore.Owin" Version="2.0.2" />
-    <PackageReference Include="Microsoft.AspNetCore.SpaServices" Version="2.0.3" />
-    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.0.2" />
-    <PackageReference Include="Nancy" Version="2.0.0-clinteastwood" />
-    <PackageReference Include="Nancy.Bootstrappers.Autofac" Version="2.0.0-clinteastwood" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
+    <PackageReference Include="NETStandard.Library" Version="2.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="1.0.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -38,17 +36,16 @@
     <!-- Files not to show in IDE -->
     <None Remove="CodefictionApp\app\app.module.browser.ts" />
     <None Remove="yarn.lock" />
+    <Compile Remove="%2a%2a\**" />
+    <Content Remove="%2a%2a\**" />
     <Content Remove="wwwroot\dist\**" />
+    <None Remove="%2a%2a\**" />
     <None Remove="CodefictionApp\dist-server\**" />
     <Content Remove="coverage\**" />
 
     <!-- Files not to publish (note that the 'dist' subfolders are re-added below) -->
     <Content Remove="CodefictionApp\**" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="wwwroot\Views\Home\index.sshtml" />
-    <None Include="wwwroot\Views\Home\master.sshtml" />
+    <EmbeddedResource Remove="%2a%2a\**" />
   </ItemGroup>
 
   <ItemGroup>

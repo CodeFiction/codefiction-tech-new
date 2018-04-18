@@ -7,7 +7,7 @@ import { ORIGIN_URL, REQUEST } from '@nguniversal/aspnetcore-engine/tokens';
 import { AppModuleShared } from './app.module';
 import { AppComponent } from './app.component';
 import { BrowserTransferStateModule } from '@angular/platform-browser';
-import { PrebootModule  } from 'preboot';
+//import { BrowserPrebootModule } from 'preboot/browser';
 
 export function getOriginUrl() {
   return window.location.origin;
@@ -19,26 +19,26 @@ export function getRequest() {
 }
 
 @NgModule({
-  bootstrap: [AppComponent],
-  imports: [
-    PrebootModule,
-    BrowserAnimationsModule,
+    bootstrap: [AppComponent],
+    imports: [
+       // BrowserPrebootModule.replayEvents(),
+        BrowserAnimationsModule,
 
-    // Our Common AppModule
-    AppModuleShared
+        // Our Common AppModule
+        AppModuleShared
 
-  ],
-  providers: [
-    {
-      // We need this for our Http calls since they'll be using an ORIGIN_URL provided in main.server
-      // (Also remember the Server requires Absolute URLs)
-      provide: ORIGIN_URL,
-      useFactory: (getOriginUrl)
-    }, {
-      // The server provides these in main.server
-      provide: REQUEST,
-      useFactory: (getRequest)
-    }
-  ]
+    ],
+    providers: [
+        {
+            // We need this for our Http calls since they'll be using an ORIGIN_URL provided in main.server
+            // (Also remember the Server requires Absolute URLs)
+            provide: ORIGIN_URL,
+            useFactory: (getOriginUrl)
+        }, {
+            // The server provides these in main.server
+            provide: REQUEST,
+            useFactory: (getRequest)
+        }
+    ]
 })
 export class AppModule { }

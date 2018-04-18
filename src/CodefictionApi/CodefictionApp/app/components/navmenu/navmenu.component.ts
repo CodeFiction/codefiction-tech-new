@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 
 export class NavMenuComponent {
-    collapse = 'collapse';
+    collapse: string = 'collapse';
 
     collapseNavbar(): void {
         if (this.collapse.length > 1) {

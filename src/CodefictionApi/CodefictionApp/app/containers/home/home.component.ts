@@ -1,12 +1,12 @@
-import { Component, OnInit, Inject } from "@angular/core";
+import { Component, OnInit, Inject } from '@angular/core';
 
 @Component({
-    selector: "app-home",
-    templateUrl: "./home.component.html"
+    selector: 'app-home',
+    templateUrl: './home.component.html'
 })
 export class HomeComponent implements OnInit {
 
-    title = "Angular 5.x Universal & ASP.NET Core 2.0 advanced starter-kit";
+    title: string = 'Angular 5.x Universal & ASP.NET Core 2.0 advanced starter-kit';
 
 
     // Here you want to handle anything with @Input()'s @Output()'s

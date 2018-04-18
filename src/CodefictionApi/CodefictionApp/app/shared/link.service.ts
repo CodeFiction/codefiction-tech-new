@@ -1,14 +1,14 @@
-/*
+/* 
  * -- LinkService --        [Temporary]
  * @MarkPieszak
- *
+ * 
  * Similar to Meta service but made to handle <link> creation for SEO purposes
  * Soon there will be an overall HeadService within Angular that handles Meta/Link everything
  */
 
-import { Injectable, PLATFORM_ID, Optional, RendererFactory2, ViewEncapsulation, Inject } from "@angular/core";
-import { DOCUMENT } from "@angular/platform-browser";
-import { isPlatformServer } from "@angular/common";
+import { Injectable, PLATFORM_ID, Optional, RendererFactory2, ViewEncapsulation, Inject } from '@angular/core';
+import { DOCUMENT } from '@angular/platform-browser';
+import { isPlatformServer } from '@angular/common';
 
 @Injectable()
 export class LinkService {
@@ -29,18 +29,18 @@ export class LinkService {
 
         try {
             const renderer = this.rendererFactory.createRenderer(this.document, {
-                id: "-1",
+                id: '-1',
                 encapsulation: ViewEncapsulation.None,
                 styles: [],
                 data: {}
             });
 
-            const link = renderer.createElement("link");
+            const link = renderer.createElement('link');
             const head = this.document.head;
-            const selector = this.parseSelector(tag);
+            const selector = this._parseSelector(tag);
 
             if (head === null) {
-                throw new Error("<head> not found within DOCUMENT.");
+                throw new Error('<head> not found within DOCUMENT.');
             }
 
             Object.keys(tag).forEach((prop: string) => {
@@ -51,7 +51,7 @@ export class LinkService {
             renderer.appendChild(head, link);
 
         } catch (e) {
-            console.error("Error within linkService : ", e);
+            console.error('Error within linkService : ', e);
         }
     }
 
@@ -64,13 +64,15 @@ export class LinkService {
     //     }
     //     return this._getOrCreateElement(tag, true);
     // }
+
     // getTag(attrSelector: string): HTMLMetaElement {
     //     if (!attrSelector) return null;
     //     return this._dom.querySelector(this._doc, `meta[${attrSelector}]`);
     // }
-    private parseSelector(tag: LinkDefinition): string {
+
+    private _parseSelector(tag: LinkDefinition): string {
         // Possibly re-work this
-        const attr: string = tag.rel ? "rel" : "hreflang";
+        const attr: string = tag.rel ? 'rel' : 'hreflang';
         return `${attr}="${tag[attr]}"`;
     }
 
