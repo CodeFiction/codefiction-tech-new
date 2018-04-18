@@ -1,0 +1,45 @@
+﻿.featured-img {
+    min-height: 183px;
+    position: relative;
+    background-size: cover;
+}
+.sticky + .featured-img,
+header[data-position="relative"] + .featured-img {
+    margin-top: 81px;
+}
+.featured-img .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background: rgba(0,0,0,.5);
+}
+.featured-img .breadcrumbs {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.featured-img .breadcrumbs .h4 {
+    color: #fff;
+    margin: 0 0 10px 0;
+    font-size: 26px;
+}
+.featured-img .breadcrumbs ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    opacity: .5;
+}
+.featured-img .breadcrumbs ul li {
+    display: inline-block;
+}
+.featured-img .breadcrumbs ul li a, .featured-img .breadcrumbs ul li span {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Asap';
+    font-weight: normal;
+    text-decoration: none;
+}

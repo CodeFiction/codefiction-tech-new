@@ -6,7 +6,7 @@ import 'rxjs/add/operator/filter';
 import 'rxjs/add/operator/mergemap';
 import 'rxjs/add/operator/map';
 import { isPlatformServer } from '@angular/common';
-import { LinkService } from './shared/link.service';
+//import { LinkService } from './shared/link.service';
 
 import { REQUEST } from '@nguniversal/aspnetcore-engine/tokens';
 
@@ -31,7 +31,7 @@ export class AppComponent implements OnInit, OnDestroy {
         private activatedRoute: ActivatedRoute,
         private title: Title,
         private meta: Meta,
-        private linkService: LinkService,
+        //private linkService: LinkService,
         private injector: Injector
     ) {
 

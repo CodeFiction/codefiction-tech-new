@@ -1,0 +1,84 @@
+[class*=" imghvr-reveal-"]:before,
+[class^=imghvr-reveal-]:before,
+[class*=" imghvr-"],
+[class^=imghvr-],
+[class*=" imghvr-shutter-out-"]:before,
+[class^=imghvr-shutter-out-]:before,
+[class*=" imghvr-shutter-in-"]:after,
+[class*=" imghvr-shutter-in-"]:before,
+[class^=imghvr-shutter-in-]:after,
+[class^=imghvr-shutter-in-]:before,
+.page-content-wrapper .blog-post-holder a.readmore:hover,
+.want-wrapper a:hover,
+.pagination ul li a:hover,
+.loader,
+.accordion .panel-heading i,
+.btn.light:hover,
+.btn.dark,
+.skills-slider-holder .progress .progress-bar,
+.skills-slider-holder .progress .skill .val,
+.view-fourth .mask a.lightbox,
+.bottom-bar {
+	background-color: #333;
+}
+
+.loader {
+	background: radial-gradient(#222, #333);
+}
+
+body,
+a.invert-btn,
+.page-content .contact-holder span,
+.page-content .contact-holder .detail-holder a,
+.page-content .contact-holder .detail-holder a:hover,
+.page-contact-form input,
+.page-contact-form input:focus,
+.page-contact-form textarea:focus,
+.page-contact-form textarea,
+.page-contact-form input[type=submit],
+.page-content.contact-wrapper p,
+.page-contact-form label,
+.comments-form label,
+.services-list li a,
+aside.recent-post li a:hover,
+.want-wrapper a,
+.pagination ul li a,
+.top-bar ul li a:hover,
+header nav.main-nav ul li a,
+.sticky header nav.main-nav ul li a,
+.icon-box,
+.icon-box a,
+.section-wrapper .heding-wrapper a,
+.accordion .panel-title a,
+.accordion .panel-title a:hover,
+.btn.light,
+.btn.light.border-1,
+.btn.light.border-2,
+.btn.default:hover,
+.portfolio-wrapper .filter-item,
+.team-holder .name,
+.team-holder .position,
+.blog-content .title a:hover,
+.contact-holder input:focus,
+.contact-holder textarea:focus,
+a.scrollToTop,
+.adds .nav-tabs > li > a,
+.page-content-wrapper .blog-post-holder .meta-item a,
+.page-content-wrapper .blog-post-holder h1,
+.page-content-wrapper .blog-post-holder h2 a,
+.recent-post-content a,
+.map-container {
+	color: #333;
+}
+
+a.invert-btn:hover,
+.pagination ul li a,
+.btn.light.border-1,
+.btn.light.border-2,
+.btn.default:hover {
+	border-color: #333;
+}
+
+.skills-slider-holder .progress .skill .val:after {
+	border-top-color: #333;
+}

@@ -1,0 +1,90 @@
+[class*=" imghvr-"] figcaption,
+[class^=imghvr-] figcaption,
+.btn.default,
+.btn.dark:hover,
+.spliter,
+.page-content .contact-holder .left-detail .spliter,
+.page-contact-form input[type=submit]:hover,
+.page-content .contact-page-ops span.spliter,
+.pagination ul li span,
+.top-bar,
+header nav.main-nav > ul > li:hover > a,
+header nav.main-nav ul li ul li a:hover,
+header nav.main-nav > ul > li.active > a,
+.responsive-banner,
+.theme-background,
+.portfolio-wrapper .portfolio-list .portfolio-holder a.lightbox,
+.portfolio-wrapper .portfolio-list .portfolio-holder a.lightbox:hover,
+.team-holder:hover .spliter,
+.contact-holder input[type=submit]:hover,
+footer .footer-left ul li a:hover,
+.scrollToTop:hover,
+.view-fourth .mask,
+.ms-skin-black-2 .ms-nav-next,
+.ms-skin-black-2 .ms-nav-prev,
+.cd-primary-nav-trigger .cd-menu-icon.is-clicked:before,
+.cd-primary-nav-trigger .cd-menu-icon.is-clicked:after {
+	background-color: #8f499c;
+}
+.btn.transparent:hover,
+.small-services:hover i,
+.page-content .contact-holder,
+.page-content .contact-holder i,
+.page-content .contact-holder .detail-holder i,
+.services-list li a:hover,
+.services-list li.active a,
+.section-wrapper .heding-wrapper span,
+.section-wrapper .container .heding-wrapper span,
+.icon-box:hover .icon-center span,
+.icon-box:hover .icon-center h3,
+.section-wrapper .heding-wrapper a:hover,
+.about-box span i,
+.icon-box:hover .feature-icon,
+.icon-box:hover .feature-text h3,
+.portfolio-wrapper ul li.active div,
+.team-holder a i,
+.team-box a i:hover,
+.testimonial-content .name,
+.price-holder.heding-wrapper .name,
+.blog-content .title a,
+footer a:hover,
+.botton-bar a:hover,
+.page-content-wrapper .blog-post-holder .meta-item a:hover,
+.page-content-wrapper .blog-post-holder h2 a:hover,
+.contact-form input:focus,
+.contact-form textarea:focus,
+.featured-img .breadcrumbs ul li a:hover,
+.page-content-wrapper .blog-post-holder .meta-item i {
+	color: #8f499c;
+}
+.btn.default,
+.small-services:hover .gray-background,
+.page-contact-form input[type=submit]:hover,
+.pagination ul li span,
+.loader-line-wrap:nth-child(1) .loader-line,
+.loader-line-wrap:nth-child(3) .loader-line,
+.loader-line-wrap:nth-child(5) .loader-line,
+.icon-box:hover .icon-center,
+.contact-holder input[type=submit]:hover,
+.scrollToTop,
+.contact-form input.not-valid,
+.contact-form textarea.not-valid,
+.page-contact-form input.not-valid,
+.page-contact-form textarea.not-valid {
+	border-color: #8f499c;
+}
+.sticky header {
+	border-bottom-color: #8f499c;
+}
+.border-left {
+	border-left-color: #8f499c;
+}
+.services-container .info {
+	background-color: rgba(143, 73, 156, 0.93);
+}
+@media (min-width:767px) and (max-width:1024px) {
+	.menu-container a:hover,
+	.menu-container .active a {
+		color: #8f499c;
+	}
+}

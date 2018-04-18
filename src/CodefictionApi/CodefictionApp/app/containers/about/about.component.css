@@ -1,0 +1,123 @@
+﻿#about {
+    padding-bottom: 0;
+    background: #f0f0f0;
+    padding-bottom: 60px;
+}
+
+.section-wrapper {
+    padding-bottom: 40px;
+}
+
+    .section-wrapper .heding-wrapper, .section-wrapper .container .heding-wrapper {
+        padding-top: 60px;
+        padding-bottom: 30px;
+        -webkit-font-smoothing: antialiased;
+    }
+
+        .section-wrapper .heding-wrapper span, .section-wrapper .container .heding-wrapper span {
+            font-size: 20px;
+            font-family: 'Asap';
+            font-weight: normal;
+            text-transform: uppercase;
+        }
+
+            .section-wrapper .heding-wrapper span i, .section-wrapper .container .heding-wrapper span i {
+                margin-right: 15px;
+                margin-top: 15px;
+            }
+
+        .section-wrapper .heding-wrapper h2, .section-wrapper .container .heding-wrapper h2 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: lighter;
+            font-size: 38px;
+        }
+
+.red-banner span {
+    color: #fff !important;
+}
+
+.red-banner h2 {
+    color: #fff !important;
+}
+
+.red-banner span.spliter {
+    background: #fff;
+}
+
+.box-heding {
+    padding: 20px 15px 10px 15px;
+}
+
+.icon-box:hover .icon-center {
+    border-radius: 10px;
+}
+
+.box-heding > .h3 {
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+.about-section-icons {
+    font-size: 30px;
+}
+
+.icon-center {
+    text-align: center;
+    border: 1px solid #d3d2d0;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+    .icon-center i {
+        -webkit-transition: all 0.2s ease;
+        -moz-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+    }
+
+    .icon-center > .h3 {
+        margin-top: 15px;
+        margin-bottom: 10px;
+        -webkit-transition: all 0.2s ease;
+        -moz-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+    }
+
+.section-wrapper .heding-wrapper p {
+    float: left;
+    margin-top: 15px;
+}
+
+.box-heding span.spliter {
+    margin-bottom: 15px;
+}
+
+.section-wrapper .view-all {
+    display: block;
+    padding-bottom: 0;
+}
+
+    .section-wrapper .view-all a {
+        margin: 0 6px;
+        text-decoration: none;
+    }
+
+.icon-box:hover .spliter {
+    width: 100px;
+}
+
+.icon-box {
+    background: none;
+    margin-bottom: 20px;
+}
+
+.about-box .h6 {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: inherit;
+}
+
+.about-box span i {
+    font-size: 28px;
+}
