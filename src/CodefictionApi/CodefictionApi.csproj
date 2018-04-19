@@ -36,21 +36,18 @@
     <!-- Files not to show in IDE -->
     <None Remove="CodefictionApp\app\app.module.browser.ts" />
     <None Remove="yarn.lock" />
-    <Compile Remove="%2a%2a\**" />
-    <Content Remove="%2a%2a\**" />
     <Content Remove="wwwroot\dist\**" />
-    <None Remove="%2a%2a\**" />
     <None Remove="CodefictionApp\dist-server\**" />
     <Content Remove="coverage\**" />
 
     <!-- Files not to publish (note that the 'dist' subfolders are re-added below) -->
     <Content Remove="CodefictionApp\**" />
-    <EmbeddedResource Remove="%2a%2a\**" />
   </ItemGroup>
 
   <ItemGroup>
     <TypeScriptCompile Include="CodefictionApp\app\app.module.browser.ts" />
   </ItemGroup>
+
 
   <Target Name="DebugNgBuild" BeforeTargets="Build" Condition="'$(Configuration)'=='Debug'">
     <Exec Command="yarn install" />

@@ -1,13 +1,4 @@
-﻿$navbar-default-bg: #312312;
-$light-orange: #ff8c00;
-$navbar-default-color: $light-orange;
-
-/* Import Bootstrap & Fonts */
-$icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
-@import "~bootstrap-sass/assets/stylesheets/bootstrap";
-
-
-.page-content {
+﻿.page-content {
     padding: 60px 0;
 }
 
@@ -171,27 +162,27 @@ $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 }
 
 .about-bg {
-    background: url(assets/images/about-breadcrumbs.jpg) center center no-repeat;
+    background: url(/dist/assets/images/about-breadcrumbs.jpg) center center no-repeat;
 }
 
 .portfolio-bg {
-    background: url(assets/images/portfolio-breadcrumbs.jpg) center center no-repeat;
+    background: url(/dist/assets/images/portfolio-breadcrumbs.jpg) center center no-repeat;
 }
 
 .price-bg {
-    background: url(assets/images/price-breadcrumbs.jpeg) center center no-repeat;
+    background: url(/dist/assets/images/price-breadcrumbs.jpeg) center center no-repeat;
 }
 
 .team-bg {
-    background: url(assets/images/team-breadcrumbs.jpg) center center no-repeat;
+    background: url(/dist/assets/images/team-breadcrumbs.jpg) center center no-repeat;
 }
 
 .services-bg {
-    background: url(assets/images/services-breadcrumbs.jpg) center center no-repeat;
+    background: url(/dist/assets/images/services-breadcrumbs.jpg) center center no-repeat;
 }
 
 .contact-bg {
-    background: url(assets/images/contact-breadcrumbs.jpg) center center no-repeat;
+    background: url(/dist/assets/images/contact-breadcrumbs.jpg) center center no-repeat;
 }
 
 .detail-page-feature {
