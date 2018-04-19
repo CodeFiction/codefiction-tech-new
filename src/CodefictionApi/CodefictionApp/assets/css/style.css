@@ -266,50 +266,6 @@ a.invert-btn {
 .mw585 {
     max-width: 585px;
 }
-/* ---------------------------------- PAGINATION -------------------------------- */
-.pagination ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-    .pagination ul li {
-        display: inline-block;
-        margin: 5px 0;
-    }
-
-        .pagination ul li:first-child {
-            margin-left: 0;
-        }
-
-        .pagination ul li:last-child {
-            margin-right: 0;
-        }
-
-        .pagination ul li a {
-            display: inline-block;
-            line-height: 100%;
-            padding: 5px 10px;
-            border-radius: 25px;
-            text-decoration: none;
-            background: transparent;
-            border-width: 1px;
-            border-style: solid;
-        }
-
-            .pagination ul li a:hover {
-                color: #fff;
-            }
-
-        .pagination ul li span {
-            display: inline-block;
-            line-height: 100%;
-            padding: 5px 10px;
-            border-radius: 25px;
-            color: #fff;
-            border-width: 1px;
-            border-style: solid;
-        }
 
 .centerer {
     margin: 0 auto;
@@ -905,67 +861,6 @@ a.invert-btn {
         transform: none;
     }
 }
-/* ---------------------------------- BLOG SECTION ---------------------------------- */
-section#blog {
-    padding-bottom: 30px;
-}
-
-.blog-content {
-    margin-bottom: 30px;
-}
-
-    .blog-content .img-holder {
-        position: relative;
-        border-radius: 5px;
-        overflow: hidden;
-    }
-
-        .blog-content .img-holder img {
-            width: 100%;
-        }
-
-        .blog-content .img-holder .author span {
-            font-size: 30px;
-            display: inline-block;
-            margin-bottom: 20px;
-            color: #fff;
-        }
-
-        .blog-content .img-holder .author-link, .blog-content .img-holder .author-link a {
-            color: #fff;
-            -webkit-transition: .2s;
-            -moz-transition: .2s;
-            transition: .2s;
-        }
-
-            .blog-content .img-holder .author-link a:hover {
-                color: #fff;
-                text-decoration: underline;
-            }
-
-    .blog-content .blog-ceontent-holder {
-        padding-bottom: 30px;
-        border-bottom: 1px solid #d5d5d5;
-        margin-bottom: 20px;
-    }
-
-    .blog-content .title {
-        font-size: 20px;
-        font-weight: normal;
-        margin: 35px 0 20px;
-    }
-
-    .blog-content .date {
-        float: left;
-        display: inline-block;
-        color: #8d8d8d;
-    }
-
-    .blog-content .comments {
-        float: right;
-        display: inline-block;
-        color: #8d8d8d;
-    }
 /* ---------------------------------- CLIENT SECTION ---------------------------------- */
 .client-wrapper .owl-item .col-clients {
     padding: 0 15px;
