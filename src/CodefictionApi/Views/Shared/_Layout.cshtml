@@ -1,51 +1,64 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <base href="@(Url.Content("~/"))" />
-    <title>@ViewData["Title"]</title>
+  <base href="@(Url.Content("~/"))" />
+  <title>@ViewData["Title"]</title>
 
-    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Asap:400,700' type='text/css'>
-    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700' type='text/css'>
-    <link rel="stylesheet" href="/dist/assets/plugins/lightbox2-master/dist/css/lightbox.min.css" type="text/css">
-    <link rel="stylesheet" href="/dist/assets/plugins/prettyPhoto/prettyPhoto.css" type="text/css">
-    <link rel="stylesheet" href="/dist/assets/plugins/OwlCarousel2-master/dist/assets/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="/dist/assets/plugins/bootstrap-3.3.7-dist/css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="/dist/assets/css/imagehover.min.css" type="text/css">
-    <link rel="stylesheet" href="/dist/assets/css/second-color.css" type="text/css">
-    <link rel="stylesheet" href="/dist/assets/css/colors/red.css" type="text/css" id="color-file">
-    <link rel="stylesheet" href="/dist/assets/css/loader.css" type="text/css">
-    <link rel="stylesheet" href="/dist/assets/font-awesome/css/font-awesome.min.css" type="text/css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  @Html.Raw(ViewData["Meta"])
+  @Html.Raw(ViewData["Links"])
 
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    @Html.Raw(ViewData["Meta"])
-    @Html.Raw(ViewData["Links"])
+  <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Asap:400,700' type='text/css'>
+  <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700' type='text/css'>
+  <link rel="stylesheet" href="/dist/assets/plugins/lightbox2-master/dist/css/lightbox.min.css" type="text/css">
+  <link rel="stylesheet" href="/dist/assets/plugins/prettyPhoto/prettyPhoto.css" type="text/css">
+  <link rel="stylesheet" href="/dist/assets/plugins/OwlCarousel2-master/dist/assets/owl.carousel.min.css" type="text/css">
+  <link rel="stylesheet" href="/dist/assets/plugins/bootstrap-3.3.7-dist/css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="/dist/assets/css/full-menu.css" type="text/css">
+  <link rel="stylesheet" href="/dist/assets/css/imagehover.min.css" type="text/css">
+  <link rel="stylesheet" href="/dist/assets/css/style.css" type="text/css">
+  <link rel="stylesheet" href="/dist/assets/css/second-color.css" type="text/css">
+  <link rel="stylesheet" href="/dist/assets/css/colors/red.css" type="text/css" id="color-file">
+  <link rel="stylesheet" href="/dist/assets/css/loader.css" type="text/css">
+  <link rel="stylesheet" href="/dist/assets/font-awesome/css/font-awesome.min.css" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--[if lt IE 9]>
+    <script src="/dist/assets/js/html5.js"></script>
+    <script src="/dist/assets/js/respond.js"></script>
+  <![endif]-->
+  <!--[if gte IE 9]>
+    <style type="text/css">
+      .gradient {
+        filter: none;
+      }
+    </style>
+  <![endif]-->
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css" />
-    <!-- <link rel="stylesheet" href="~/dist/vendor.css" asp-append-version="true" /> -->
-
-    @Html.Raw(ViewData["Styles"])
+  @Html.Raw(ViewData["Styles"])
 
 </head>
-<body>
+<body class="wide">
+  <div class="boxed-wrapper">
     @RenderBody()
+  </div>
 
-    <!-- Here we're passing down any data to be used by grabbed and parsed by Angular -->
-    @Html.Raw(ViewData["TransferData"])
-    @Html.Raw(ViewData["Scripts"])
+  <!-- Here we're passing down any data to be used by grabbed and parsed by Angular -->
+  @Html.Raw(ViewData["TransferData"])
+  @Html.Raw(ViewData["Scripts"])
 
-    @RenderSection("scripts", required: false)
-    <script src="/dist/assets/js/jquery-v1.12.4.min.js"></script>
-    <script src="/dist/assets/js/modernizr-custom.js"></script>
-    <script src="/dist/assets/js/jquery.easing.min.js"></script>
-    <script src="/dist/assets/plugins/OwlCarousel2-master/dist/owl.carousel.min.js"></script>
-    <script src="/dist/assets/plugins/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-    <script src="/dist/assets/plugins/lightbox2-master/dist/js/lightbox.min.js"></script>
-    <script src="/dist/assets/plugins/prettyPhoto/jquery.prettyPhoto.js"></script>
-    <script src="/dist/assets/js/jquery.viewportchecker.min.js"></script>
-    <script src="/dist/assets/plugins/stellar.js-master/src/jquery.stellar.js"></script>
-    <script src="/dist/assets/plugins/velocity-master/velocity.min.js"></script>
-    <script src="/dist/assets/plugins/muuri-master/muuri.min.js"></script>
-    <script src="/dist/assets/js/main.js"></script>
+  <script src="/dist/assets/js/jquery-v1.12.4.min.js"></script>
+  <script src="/dist/assets/js/modernizr-custom.js"></script>
+  <script src="/dist/assets/js/jquery.easing.min.js"></script>
+  <script src="/dist/assets/plugins/OwlCarousel2-master/dist/owl.carousel.min.js"></script>
+  <script src="/dist/assets/plugins/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+  <script src="/dist/assets/plugins/lightbox2-master/dist/js/lightbox.min.js"></script>
+  <script src="/dist/assets/plugins/prettyPhoto/jquery.prettyPhoto.js"></script>
+  <script src="/dist/assets/js/jquery.viewportchecker.min.js"></script>
+  <script src="/dist/assets/plugins/stellar.js-master/src/jquery.stellar.js"></script>
+  <script src="/dist/assets/plugins/velocity-master/velocity.min.js"></script>
+  <script src="/dist/assets/plugins/muuri-master/muuri.min.js"></script>
+  <script src="/dist/assets/js/main.js"></script>
+  @RenderSection("scripts", required: false)
 </body>
 </html>

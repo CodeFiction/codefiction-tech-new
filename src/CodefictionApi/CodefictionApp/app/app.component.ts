@@ -10,6 +10,8 @@ import { isPlatformServer } from '@angular/common';
 
 import { REQUEST } from '@nguniversal/aspnetcore-engine/tokens';
 
+declare var jQuery: any;
+
 @Component({
     selector: 'app-root',
     templateUrl: './app.component.html',
@@ -46,6 +48,27 @@ export class AppComponent implements OnInit, OnDestroy {
         // Change "Title" on every navigationEnd event
         // Titles come from the data.title property on all Routes (see app.routes.ts)
         //this._changeTitleOnNavigation();
+
+      setTimeout(() => {
+          jQuery('.simple-slider').owlCarousel({
+            items: 1,
+            loop: true,
+          });
+
+          // Show element on scroll
+          jQuery('.animate-in').viewportChecker({
+            classToAdd: 'animated',
+            callbackFunction(elem, action) {
+              if (elem.hasClass('progress')) {
+                jQuery('.progress .progress-bar').css('width',
+                  function () {
+                    return jQuery(this).attr('aria-valuenow') + "%";
+                  });
+              }
+            }
+          });
+        },
+        10);
     }
 
     ngOnDestroy() {

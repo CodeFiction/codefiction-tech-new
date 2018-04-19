@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+declare var jQuery: any;
 
 @Component({
     selector: 'app-header',
@@ -6,6 +7,13 @@ import { Component } from '@angular/core';
     styleUrls: ['./header.component.css']
 })
 
-export class HeaderComponent {
+export class HeaderComponent implements OnInit {
+
+  ngOnInit() {
+    setTimeout(() => {
+        jQuery('.preloader-wrapper').fadeOut();
+      },
+      10);
+  }
 
 }

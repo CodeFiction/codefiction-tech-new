@@ -1,50 +1,54 @@
 <nav class="main-nav">
-    <ul>
-        <li class="wrap"><a href="index.html" class="btn-7"><span>HOME</span></a></li>
-        <li class="wrap active"><a href="about.html" class="btn-7"><span>ABOUT</span></a></li>
-        <li class="wrap"><a href="team.html" class="btn-7"><span>TEAM</span></a></li>
-        <li class="wrap">
-            <a href="services.html" class="btn-7"><span>SERVICES <i class="fa fa-caret-down" aria-hidden="true"></i></span></a>
-            <div class="sub">
-                <ul>
-                    <li><a href="services-detail.html">Detailed</a></li>
-                </ul>
-            </div>
-        </li>
-        <li class="wrap">
-            <a href="portfolio.html" class="btn-7"><span>PORTFOLIO <i class="fa fa-caret-down" aria-hidden="true"></i></span></a>
-            <div class="sub">
-                <ul>
-                    <li><a href="portfolio-detail.html">Detailed</a></li>
-                    <li><a href="portfolio-detail.html">Detailed</a></li>
-                    <li>
-                        <a href="portfolio-detail.html">Detailed <i class="fa fa-caret-right" aria-hidden="true"></i></a>
-                        <div class="sub">
-                            <ul>
-                                <li><a href="portfolio-detail.html">Detailed</a></li>
-                                <li><a href="portfolio-detail.html">Detailed</a></li>
-                                <li><a href="portfolio-detail.html">Detailed</a></li>
-                                <li><a href="portfolio-detail.html">Detailed</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </li>
-        <li class="wrap">
-            <a href="#" class="btn-7"><span>BLOG <i class="fa fa-caret-down" aria-hidden="true"></i></span></a>
-            <div class="sub">
-                <ul>
-                    <li><a href="blog.html">Full Width</a></li>
-                    <li><a href="blog-with-leftbar.html">With Left Sidebar</a></li>
-                    <li><a href="blog-with-rightbar.html">With Right Sidebar</a></li>
-                    <li><a href="blog-detail.html">Detail Page</a></li>
-                    <li><a href="blog-detail-leftbar.html">Detail Page With Left Sidebar</a></li>
-                    <li><a href="blog-detail-rightbar.html">Detail Page With Right Sidebar</a></li>
-                </ul>
-            </div>
-        </li>
-        <li class="wrap"><a href="price.html" class="btn-7"><span>PRICE</span></a></li>
-        <li class="wrap"><a href="contact.html" class="btn-7"><span>CONTACT</span></a></li>
-    </ul>
+  <ul>
+    <li [routerLinkActive]="['active']" class="wrap">
+      <a [routerLink]="['/home']" class="btn-7"><span>HOME</span></a>
+    </li>
+    <li [routerLinkActive]="['active']" class="wrap">
+      <a [routerLink]="['/about']" class="btn-7"><span>ABOUT</span></a>
+    </li>
+    <li class="wrap"><a href="team.html" class="btn-7"><span>TEAM</span></a></li>
+    <!--<li class="wrap">
+      <a href="services.html" class="btn-7"><span>SERVICES <i class="fa fa-caret-down" aria-hidden="true"></i></span></a>
+      <div class="sub">
+          <ul>
+              <li><a href="services-detail.html">Detailed</a></li>
+          </ul>
+      </div>
+  </li>
+  <li class="wrap">
+      <a href="portfolio.html" class="btn-7"><span>PORTFOLIO <i class="fa fa-caret-down" aria-hidden="true"></i></span></a>
+      <div class="sub">
+          <ul>
+              <li><a href="portfolio-detail.html">Detailed</a></li>
+              <li><a href="portfolio-detail.html">Detailed</a></li>
+              <li>
+                  <a href="portfolio-detail.html">Detailed <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+                  <div class="sub">
+                      <ul>
+                          <li><a href="portfolio-detail.html">Detailed</a></li>
+                          <li><a href="portfolio-detail.html">Detailed</a></li>
+                          <li><a href="portfolio-detail.html">Detailed</a></li>
+                          <li><a href="portfolio-detail.html">Detailed</a></li>
+                      </ul>
+                  </div>
+              </li>
+          </ul>
+      </div>
+  </li>
+  <li class="wrap">
+      <a href="#" class="btn-7"><span>BLOG <i class="fa fa-caret-down" aria-hidden="true"></i></span></a>
+      <div class="sub">
+          <ul>
+              <li><a href="blog.html">Full Width</a></li>
+              <li><a href="blog-with-leftbar.html">With Left Sidebar</a></li>
+              <li><a href="blog-with-rightbar.html">With Right Sidebar</a></li>
+              <li><a href="blog-detail.html">Detail Page</a></li>
+              <li><a href="blog-detail-leftbar.html">Detail Page With Left Sidebar</a></li>
+              <li><a href="blog-detail-rightbar.html">Detail Page With Right Sidebar</a></li>
+          </ul>
+      </div>
+  </li>
+  <li class="wrap"><a href="price.html" class="btn-7"><span>PRICE</span></a></li>
+  <li class="wrap"><a href="contact.html" class="btn-7"><span>CONTACT</span></a></li>-->
+  </ul>
 </nav>
