@@ -3,10 +3,10 @@ import { Router, NavigationEnd, ActivatedRoute, PRIMARY_OUTLET } from '@angular/
 import { Meta, Title, DOCUMENT, MetaDefinition } from '@angular/platform-browser';
 import { Subscription } from 'rxjs/Subscription';
 import 'rxjs/add/operator/filter';
-import 'rxjs/add/operator/mergemap';
+import 'rxjs/add/operator/mergeMap';
 import 'rxjs/add/operator/map';
 import { isPlatformServer } from '@angular/common';
-//import { LinkService } from './shared/link.service';
+import { LinkService } from './shared/link.service';
 
 import { REQUEST } from '@nguniversal/aspnetcore-engine/tokens';
 
@@ -33,10 +33,9 @@ export class AppComponent implements OnInit, OnDestroy {
         private activatedRoute: ActivatedRoute,
         private title: Title,
         private meta: Meta,
-        //private linkService: LinkService,
+        private linkService: LinkService,
         private injector: Injector
     ) {
-
         this.request = this.injector.get(REQUEST);
 
         console.log(`What's our REQUEST Object look like?`);
@@ -47,7 +46,7 @@ export class AppComponent implements OnInit, OnDestroy {
     ngOnInit() {
         // Change "Title" on every navigationEnd event
         // Titles come from the data.title property on all Routes (see app.routes.ts)
-        //this._changeTitleOnNavigation();
+        this.changeTitleOnNavigation();
 
       setTimeout(() => {
           jQuery('.simple-slider').owlCarousel({
@@ -73,45 +72,44 @@ export class AppComponent implements OnInit, OnDestroy {
 
     ngOnDestroy() {
         // Subscription clean-up
-       // this.routerSub$.unsubscribe();
+        this.routerSub$.unsubscribe();
     }
 
-    //private _changeTitleOnNavigation() {
+    private changeTitleOnNavigation() {
 
-    //    this.routerSub$ = this.router.events
-    //        .filter(event => event instanceof NavigationEnd)
-    //        .map(() => this.activatedRoute)
-    //        .map(route => {
-    //            while (route.firstChild) route = route.firstChild;
-    //            return route;
-    //        })
-    //        .filter(route => route.outlet === 'primary')
-    //        .mergeMap(route => route.data)
-    //        .subscribe((event) => {
-    //            this._setMetaAndLinks(event);
-    //        });
-    //}
+        this.routerSub$ = this.router.events
+            .filter(event => event instanceof NavigationEnd)
+            .map(() => this.activatedRoute)
+            .map(route => {
+                while (route.firstChild) route = route.firstChild;
+                return route;
+            })
+            .filter(route => route.outlet === 'primary')
+            .mergeMap(route => route.data)
+            .subscribe((event) => {
+                this.setMetaAndLinks(event);
+            });
+    }
 
-    //private _setMetaAndLinks(event) {
+    private setMetaAndLinks(event) {
 
-    //    // Set Title if available, otherwise leave the default Title
-    //    const title = event['title']
-    //        ? `${event['title']} - ${this.endPageTitle}`
-    //        : `${this.defaultPageTitle} - ${this.endPageTitle}`;
+        // Set Title if available, otherwise leave the default Title
+        const title = event['title']
+            ? `${event['title']} - ${this.endPageTitle}`
+            : `${this.defaultPageTitle} - ${this.endPageTitle}`;
 
-    //    this.title.setTitle(title);
+        this.title.setTitle(title);
 
-    //    const metaData = event['meta'] || [];
-    //    const linksData = event['links'] || [];
+        const metaData = event['meta'] || [];
+        const linksData = event['links'] || [];
 
-    //    for (let i = 0; i < metaData.length; i++) {
-    //        this.meta.updateTag(metaData[i]);
-    //    }
+        for (let i = 0; i < metaData.length; i++) {
+            this.meta.updateTag(metaData[i]);
+        }
 
-    //    for (let i = 0; i < linksData.length; i++) {
-    //        this.linkService.addTag(linksData[i]);
-    //    }
-    //}
-
+        for (let i = 0; i < linksData.length; i++) {
+            this.linkService.addTag(linksData[i]);
+        }
+    }
 }
 
