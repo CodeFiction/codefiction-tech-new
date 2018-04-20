@@ -28,7 +28,7 @@ namespace Codefiction.CodefictionTech.CodefictionApi.Server.Controllers
 
         [HttpGet]
         [Route("sitemap.xml")]
-        public async Task<IActionResult> SitemapXml()
+        public IActionResult SitemapXml()
         {
             String xml = "<?xml version=\"1.0\" encoding=\"utf-8\"?>";
 

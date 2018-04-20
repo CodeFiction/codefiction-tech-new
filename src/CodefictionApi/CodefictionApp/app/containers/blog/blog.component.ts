@@ -1,4 +1,5 @@
-import { Component, OnInit, Inject } from '@angular/core';
+import { Component, OnInit, PLATFORM_ID, Inject } from '@angular/core';
+import { isPlatformServer, isPlatformBrowser } from '@angular/common';
 declare var jQuery: any;
 
 @Component({
@@ -7,13 +8,18 @@ declare var jQuery: any;
   styleUrls: ['./blog.component.css']
 })
 export class BlogComponent implements OnInit {
-
   title: string = 'Angular 5.x Universal & ASP.NET Core 2.0 advanced starter-kit';
 
+  constructor(@Inject(PLATFORM_ID) private platformId: Object) {
+
+  }
+
   ngOnInit() {
-    setTimeout(() => {
+    if (isPlatformBrowser(this.platformId)) {
+      setTimeout(() => {
 
       },
-      10);
+        10);
+    }
   }
 }

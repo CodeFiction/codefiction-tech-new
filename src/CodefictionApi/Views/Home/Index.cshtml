@@ -1,4 +1,5 @@
-﻿<!-- Remove this if you want to remove Server-side rendering -->
+﻿@using Codefiction.CodefictionTech.CodefictionApi.Server.Helpers
+<!-- Remove this if you want to remove Server-side rendering -->
 @Html.Raw(ViewData["SpaHtml"])
 
 <!-- if you only want Client-side rendering uncomment this -->
@@ -7,6 +8,9 @@
 @section scripts {
   <script src="~/dist/inline.bundle.js" asp-append-version="true"></script>
   <script src="~/dist/polyfills.bundle.js" asp-append-version="true"></script>
-  <script src="~/dist/vendor.bundle.js" asp-append-version="true"></script>
+  @if (!Html.IsDebug())
+  {
+    <script src="~/dist/vendor.bundle.js" asp-append-version="true"></script>
+  }
   <script src="~/dist/main.bundle.js" asp-append-version="true"></script>
 }
