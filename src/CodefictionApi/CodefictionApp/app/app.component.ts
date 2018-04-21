@@ -5,7 +5,7 @@ import { Subscription } from 'rxjs/Subscription';
 import 'rxjs/add/operator/filter';
 import 'rxjs/add/operator/mergeMap';
 import 'rxjs/add/operator/map';
-import { isPlatformServer } from '@angular/common';
+import { isPlatformServer, isPlatformBrowser } from '@angular/common';
 import { LinkService } from './shared/link.service';
 
 import { REQUEST } from '@nguniversal/aspnetcore-engine/tokens';
@@ -34,7 +34,8 @@ export class AppComponent implements OnInit, OnDestroy {
         private title: Title,
         private meta: Meta,
         private linkService: LinkService,
-        private injector: Injector
+        private injector: Injector,
+        @Inject(PLATFORM_ID) private platformId: any
     ) {
         this.request = this.injector.get(REQUEST);
 
@@ -47,27 +48,6 @@ export class AppComponent implements OnInit, OnDestroy {
         // Change "Title" on every navigationEnd event
         // Titles come from the data.title property on all Routes (see app.routes.ts)
         this.changeTitleOnNavigation();
-
-      setTimeout(() => {
-          jQuery('.simple-slider').owlCarousel({
-            items: 1,
-            loop: true,
-          });
-
-          // Show element on scroll
-          jQuery('.animate-in').viewportChecker({
-            classToAdd: 'animated',
-            callbackFunction(elem, action) {
-              if (elem.hasClass('progress')) {
-                jQuery('.progress .progress-bar').css('width',
-                  function () {
-                    return jQuery(this).attr('aria-valuenow') + "%";
-                  });
-              }
-            }
-          });
-        },
-        10);
     }
 
     ngOnDestroy() {

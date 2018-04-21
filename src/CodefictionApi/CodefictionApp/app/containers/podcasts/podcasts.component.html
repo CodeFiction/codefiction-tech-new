@@ -1,0 +1,8 @@
+﻿<p *ngIf="!podcasts"><em>Loading...</em></p>
+<h2>Podcasts</h2>
+<ul>
+    <li *ngFor="let podcast of podcasts"
+        [@flyInOut]>
+        <span class="badge">{{podcast.id}}</span> {{podcast.slug}}
+    </li>
+</ul>

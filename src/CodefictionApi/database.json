@@ -1,0 +1,22 @@
+﻿{
+  "Podcasts": [
+    {
+      "Id": 1,
+      "Title": "Dotnet Core", 
+      "Slug": "birinci-bolum-dotnet-core",
+      "SoundcloudUrl": "https://soundcloud.com/codefiction/codefiction-podcast-birinci-bolum",
+      "YoutubeUrl": "https://www.youtube.com/watch?v=H3SxXT4yRC4",
+      "ShortDescription": "Codefiction podcast serisinin ilk bölümünde .Net Core ve Microsoft tarafındaki gelişmeleri konuştuk.",
+      "LongDescription" : "", 
+      "Attendees": [ "Barış Özaydın", "Deniz İrgin", "Fırat Özbolat", "Uğur Atar", "Mert Susur" ],
+      "Tags": [ "dotnet", "dotnet core", "csharp", "microsoft" ],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate" : "2018-01-01" 
+    }
+  ] 
+}

@@ -162,27 +162,27 @@
 }
 
 .about-bg {
-    background: url(/dist/assets/images/about-breadcrumbs.jpg) center center no-repeat;
+    background: url(/assets/images/about-breadcrumbs.jpg) center center no-repeat;
 }
 
 .portfolio-bg {
-    background: url(/dist/assets/images/portfolio-breadcrumbs.jpg) center center no-repeat;
+    background: url(/assets/images/portfolio-breadcrumbs.jpg) center center no-repeat;
 }
 
 .price-bg {
-    background: url(/dist/assets/images/price-breadcrumbs.jpeg) center center no-repeat;
+    background: url(/assets/images/price-breadcrumbs.jpeg) center center no-repeat;
 }
 
 .team-bg {
-    background: url(/dist/assets/images/team-breadcrumbs.jpg) center center no-repeat;
+    background: url(/assets/images/team-breadcrumbs.jpg) center center no-repeat;
 }
 
 .services-bg {
-    background: url(/dist/assets/images/services-breadcrumbs.jpg) center center no-repeat;
+    background: url(/assets/images/services-breadcrumbs.jpg) center center no-repeat;
 }
 
 .contact-bg {
-    background: url(/dist/assets/images/contact-breadcrumbs.jpg) center center no-repeat;
+    background: url(/assets/images/contact-breadcrumbs.jpg) center center no-repeat;
 }
 
 .detail-page-feature {

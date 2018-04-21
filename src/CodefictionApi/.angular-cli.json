@@ -6,7 +6,7 @@
   "apps": [
     {
       "root": "CodefictionApp",
-      "outDir": "wwwroot/dist",
+      "outDir": "wwwroot",
       "assets": [
         "assets",
         "favicon.ico"

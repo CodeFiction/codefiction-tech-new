@@ -8,17 +8,4 @@ import { Component, ViewEncapsulation } from '@angular/core';
 })
 
 export class NavMenuComponent {
-  //collapse: string = 'collapse';
-
-  //collapseNavbar(): void {
-  //    if (this.collapse.length > 1) {
-  //        this.collapse = '';
-  //    } else {
-  //        this.collapse = 'collapse';
-  //    }
-  //}
-
-  //collapseMenu() {
-  //    this.collapse = 'collapse';
-  //}
 }

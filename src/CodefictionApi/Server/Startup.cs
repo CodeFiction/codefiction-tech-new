@@ -2,10 +2,10 @@ using System;
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using Codefiction.CodefictionTech.CodefictionApi.Server.Data;
+using Codefiction.CodefictionTech.CodefictionApi.Server.Data.Contracts;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
@@ -27,17 +27,12 @@ namespace Codefiction.CodefictionTech.CodefictionApi.Server
 
         public static IContainer Container { get; private set; }
 
-        public void ConfigureServices(IServiceCollection services)
+        public IServiceProvider ConfigureServices(IServiceCollection services)
         {
             // Add framework services.
             services.AddMvc();
             services.AddNodeServices();
-
-            var connectionStringBuilder =
-                new Microsoft.Data.Sqlite.SqliteConnectionStringBuilder {DataSource = "spa.db"};
-            var connectionString = connectionStringBuilder.ToString();
-
-            services.AddDbContext<SpaDbContext>(options => options.UseSqlite(connectionString));
+            services.AddMemoryCache();
 
             // Register the Swagger generator, defining one or more Swagger documents
             services.AddSwaggerGen(c =>
@@ -53,10 +48,15 @@ namespace Codefiction.CodefictionTech.CodefictionApi.Server
             ContainerBuilder builder = new ContainerBuilder();
             builder.Populate(services);
 
+            builder.RegisterType<DatabaseProvider>().As<IDatabaseProvider>().InstancePerDependency();
+            builder.RegisterType<PodcastRepository>().As<IPodcastRepository>().InstancePerDependency();
+
             Container = builder.Build();
+
+            return new AutofacServiceProvider(Container);
         }
 
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory, SpaDbContext context)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();

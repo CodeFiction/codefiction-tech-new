@@ -1,7 +1,7 @@
 import 'zone.js/dist/zone-node';
 import './polyfills.server';
 
-import { AppModule } from './app/app.server.module';
+import { AppModule } from './app/app.module.server';
 import { enableProdMode } from '@angular/core';
 import { INITIAL_CONFIG } from '@angular/platform-server';
 // import { APP_BASE_HREF } from '@angular/common';

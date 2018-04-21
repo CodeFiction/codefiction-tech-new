@@ -10,33 +10,31 @@
     <TypeScriptToolsVersion>2.6</TypeScriptToolsVersion>
   </PropertyGroup>
 
-  <PropertyGroup>
-    <LangVersion>7.1</LangVersion>
-  </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Autofac" Version="4.7.0" />
+    <PackageReference Include="Autofac" Version="4.8.0" />
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.2.2" />
-    <PackageReference Include="AWSSDK.S3" Version="3.3.18" />
-    <PackageReference Include="AWSSDK.Extensions.NETCore.Setup" Version="3.3.5" />
-    <PackageReference Include="Amazon.Lambda.AspNetCoreServer" Version="2.0.2" />
-    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
-    <PackageReference Include="NETStandard.Library" Version="2.0.0" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.0.0" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.0.0" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="1.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
+    <PackageReference Include="Microsoft.DotNet.Watcher.Tools" Version="2.0.0" />
+    <PackageReference Include="NETStandard.Library" Version="2.0.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="2.4.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <DotNetCliToolReference Include="Amazon.Lambda.Tools" Version="2.1.1" />
+    <DotNetCliToolReference Include="Amazon.Lambda.Tools" Version="2.1.2" />
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.3" />
     <DotNetCliToolReference Include="Microsoft.DotNet.Watcher.Tools" Version="2.0.0" />
   </ItemGroup>
+
   <ItemGroup>
     <!-- Files not to show in IDE -->
-    <None Remove="CodefictionApp\app\app.module.browser.ts" />
+    <None Remove="CodefictionApi.csproj.DotSettings" />
+    <None Remove="CodefictionApp\app\shared\podcasts.service.ts" />
+    <None Remove="WatchRun.cmd" />
+    <None Remove="WatchRun.ps1" />
+    <None Remove="WatchRun.sh" />
     <None Remove="yarn.lock" />
-    <Content Remove="wwwroot\dist\**" />
+    <Content Remove="wwwroot\**" />
     <None Remove="CodefictionApp\dist-server\**" />
     <Content Remove="coverage\**" />
 
@@ -45,27 +43,46 @@
   </ItemGroup>
 
   <ItemGroup>
-    <TypeScriptCompile Include="CodefictionApp\app\app.module.browser.ts" />
+    <TypeScriptCompile Include="CodefictionApp\app\shared\podcasts.service.ts" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="database.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
 
-  <Target Name="DebugNgBuild" BeforeTargets="Build" Condition="'$(Configuration)'=='Debug'">
+  <Target Name="DebugNgBuild" BeforeTargets="Build" Condition="'$(Configuration)'=='Debug' AND !Exists('wwwroot')">
+    <!-- Ensure yarn is installed -->
+    <Exec Command="yarn --version" ContinueOnError="true">
+      <Output TaskParameter="ExitCode" PropertyName="ErrorCode" />
+    </Exec>
+
     <Exec Command="yarn install" />
-    <Exec Command="ng build --env=dev --app 0 --output-hashing=false --build-optimizer --aot" />
-    <Exec Command="ng build --env=dev --app 1 --output-hashing=false --build-optimizer --aot" />
+    <Exec Command="ng build --env=dev --app 0" />
+    <Exec Command="ng build --env=dev --app 1" />
   </Target>
-  
-  <Target Name="ReleaseNgBuild" BeforeTargets="Build" Condition="'$(Configuration)'=='Release'">
+
+  <Target Name="PublishProject" BeforeTargets="ComputeFilesToPublish">
     <Exec Command="yarn install" />
     <Exec Command="ng build --prod --app 0 --output-hashing=false --build-optimizer --aot" />
     <Exec Command="ng build --prod --app 1 --output-hashing=false --build-optimizer --aot" />
+
+    <!-- Include the newly-built files in the publish output -->
+    <ItemGroup>
+      <DistFiles Include="wwwroot/**; CodefictionApp/dist-server/**" />
+      <ResolvedFileToPublish Include="@(DistFiles->'%(FullPath)')" Exclude="@(ResolvedFileToPublish)">
+        <RelativePath>%(DistFiles.Identity)</RelativePath>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      </ResolvedFileToPublish>
+    </ItemGroup>
   </Target>
   
   <Target Name="CleanDist" AfterTargets="Clean">
     <ItemGroup>
-      <FilesToDelete Include="CodefictionApp\dist-server\**; wwwroot\dist\**" />
+      <FilesToDelete Include="CodefictionApp\dist-server\**; wwwroot\**" />
     </ItemGroup>
     <Delete Files="@(FilesToDelete)" />
-    <RemoveDir Directories="CodefictionApp\dist-server; wwwroot\dist" />
+    <RemoveDir Directories="CodefictionApp\dist-server; wwwroot" />
   </Target>
 </Project>
