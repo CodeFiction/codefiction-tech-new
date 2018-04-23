@@ -2,12 +2,12 @@
   "Podcasts": [
     {
       "Id": 1,
-      "Title": "Dotnet Core", 
+      "Title": "Dotnet Core",
       "Slug": "birinci-bolum-dotnet-core",
-      "SoundcloudUrl": "https://soundcloud.com/codefiction/codefiction-podcast-birinci-bolum",
-      "YoutubeUrl": "https://www.youtube.com/watch?v=H3SxXT4yRC4",
+      "SoundcloudId": "290404729",
+      "YoutubeUrl": "https://www.youtube.com/embed/H3SxXT4yRC4",
       "ShortDescription": "Codefiction podcast serisinin ilk bölümünde .Net Core ve Microsoft tarafındaki gelişmeleri konuştuk.",
-      "LongDescription" : "", 
+      "LongDescription": "",
       "Attendees": [ "Barış Özaydın", "Deniz İrgin", "Fırat Özbolat", "Uğur Atar", "Mert Susur" ],
       "Tags": [ "dotnet", "dotnet core", "csharp", "microsoft" ],
       "Relations": [
@@ -16,7 +16,25 @@
           "Id": 1
         }
       ],
-      "PublishDate" : "2018-01-01" 
+      "PublishDate": "2018-01-01"
+    },
+    {
+      "Id": 2,
+      "Title": "Microservices",
+      "Slug": "ikinci-bolum-microservices",
+      "SoundcloudId": "291418126",
+      "YoutubeUrl": "https://www.youtube.com/embed/JKJhOsBNfjs",
+      "ShortDescription": "Microservice nedir? Ne ile yarar? Yaptığımızı ona mı devşirmeliyiz? Ne gibi sorunlara çözüm oluyor ya da ne gibi sorunlar olusturuyor? Tüm bu soruları tartıstık.",
+      "LongDescription": "",
+      "Attendees": [ "Barış Özaydın", "Deniz İrgin", "Fırat Özbolat", "Uğur Atar", "Mert Susur" ],
+      "Tags": [ "microservice", "software architecture" ],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2018-01-01"
     }
   ] 
 }

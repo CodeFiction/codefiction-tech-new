@@ -15,6 +15,6 @@
   // set as the "entryModule".
   "angularCompilerOptions": {
     "genDir": "ngfactory",
-    "entryModule": "app/app.server.module#AppModule"
+    "entryModule": "app/app.module.server#AppModule"
   }
 }

@@ -21,4 +21,8 @@ export class PodcastService {
     getPodcasts() {
         return this.http.get<IPodcasts[]>(`${this.baseUrl}/api/podcasts`);
     }
+
+    getPodcastbySlug(slug: string) {
+        return this.http.get<IPodcasts>(`${this.baseUrl}/api/podcasts/` + slug);
+    }
 }

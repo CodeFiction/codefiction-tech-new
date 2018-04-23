@@ -24,5 +24,14 @@ namespace Codefiction.CodefictionTech.CodefictionApi.Server.ApiControllers
 
             return new JsonResult(podcasts);
         }
+
+        [HttpGet]
+        [Route("{slug}")]
+        public async Task<JsonResult> PodcastBySlug(string slug)
+        {
+            Podcast podcast = await _podcastRepository.GetPodcastBySlug(slug);
+
+            return new JsonResult(podcast);
+        }        
     }
 }

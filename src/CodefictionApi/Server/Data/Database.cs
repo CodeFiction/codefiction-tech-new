@@ -16,7 +16,7 @@ namespace Codefiction.CodefictionTech.CodefictionApi.Server.Data
         public int Id { get; set; }
         public string Title { get; set; }
         public string Slug { get; set; }
-        public string SoundcloudUrl { get; set; }
+        public string SoundcloudId { get; set; }
         public string YoutubeUrl { get; set; }
         public string ShortDescription { get; set; }
         public string LongDescription { get; set; }

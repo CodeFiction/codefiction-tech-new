@@ -1,7 +1,5 @@
-import { Component, OnInit, 
-     // animation imports
-    trigger, state, style, transition, animate,
-    PLATFORM_ID, Inject } from '@angular/core';
+import { Component, OnInit, PLATFORM_ID, Inject } from '@angular/core';
+import { Observable } from 'rxjs/Observable';
 
 import { IPodcast as IPodcasts } from '../../models/Podcasts';
 import { PodcastService } from '../../shared/podcasts.service';
@@ -9,21 +7,7 @@ import { PodcastService } from '../../shared/podcasts.service';
 @Component({
     selector: 'app-podcasts',
     templateUrl: './podcasts.component.html',
-    styleUrls: ['./podcasts.component.css'],
-    animations: [
-        // Animation example
-        // Triggered in the ngFor with [@flyInOut]
-        trigger('flyInOut', [
-          state('in', style({ transform: 'translateY(0)' })),
-          transition('void => *', [
-            style({ transform: 'translateY(-100%)' }),
-            animate(1000)
-          ]),
-          transition('* => void', [
-            animate(1000, style({ transform: 'translateY(100%)' }))
-          ])
-        ])
-      ]
+    styleUrls: ['./podcasts.component.css']
 })
 export class PodcastsComponent implements OnInit {
     podcasts: IPodcasts[];
@@ -39,5 +23,7 @@ export class PodcastsComponent implements OnInit {
             console.log('HttpClient [GET] /api/podcasts', result);
             this.podcasts = result;
         });
+
+        //this.podcasts$ = this.podcastService.getPodcasts();
     }
 }
