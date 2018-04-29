@@ -16,7 +16,7 @@
           "Id": 1
         }
       ],
-      "PublishDate": "2018-01-01"
+      "PublishDate": "2016-10-28"
     },
     {
       "Id": 2,
@@ -34,7 +34,241 @@
           "Id": 1
         }
       ],
-      "PublishDate": "2018-01-01"
+      "PublishDate": "2016-11-04"
+    },
+    {
+      "Id": 3,
+      "Title": "Javascript Kütüphaneleri",
+      "Slug": "ucuncu-bolum-javascript-kutuphaneleri",
+      "SoundcloudId": "292006677",
+      "YoutubeUrl": "https://www.youtube.com/embed/fBwaQyQdMPM",
+      "ShortDescription": "Popüler javascript kütüphanelerini ve modern javascript'in sorunlarını tartıştık.",
+      "LongDescription": "",
+      "Attendees": [ "Barış Özaydın", "Deniz İrgin", "Fırat Özbolat", "Uğur Atar", "Mert Susur" ],
+      "Tags": [ "javascript", "javascript libraries", "angular", "react" ],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2016-11-08"
+    },
+    {
+      "Id": 4,
+      "Title": "Continuous Integration",
+      "Slug": "dorduncu-bolum-continuous-integration",
+      "SoundcloudId": "293570101",
+      "YoutubeUrl": "https://www.youtube.com/embed/UdUbl1dAGRE",
+      "ShortDescription": "Continuous Integration ve faydaları, kaliteye nasıl etkileri oluyor tartıştık. Bu bölümde Başar Köprücü de konuğumuz oldu.",
+      "LongDescription": "",
+      "Attendees": [ "Barış Özaydın", "Başar Köprücü", "Deniz İrgin", "Fırat Özbolat", "Mert Susur" ],
+      "Tags": [ "software development", "agile development", "continuous integration" ],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2016-11-18"
+    },
+    {
+      "Id": 5,
+      "Title": "Çevik Yazılım Geliştirme Yöntemleri",
+      "Slug": "besinci-bolum-cevik-yazilim-gelistirme-yontemleri",
+      "SoundcloudId": "294342637",
+      "YoutubeUrl": "https://www.youtube.com/embed/l-jdSdUW6wM",
+      "ShortDescription": "Farklı ülkelerde çalışan Codefiction üyelerinin çevik yöntemleri nasıl uyguladığını konuştuk ve pratikleri artılarıyla ve eksileriyle tartıştık.",
+      "LongDescription": "",
+      "Attendees": [ "Deniz İrgin", "Fırat Özbolat", "Uğur Atar", "Mert Susur" ],
+      "Tags": [ "agile development", "software development", "agile" ],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2016-11-23"
+    },
+    {
+      "Id": 6,
+      "Title": "Uygulama Testleri",
+      "Slug": "altinci-bolum-uygulama-testleri",
+      "SoundcloudId": "295243070",
+      "YoutubeUrl": "https://www.youtube.com/embed/-8wFXOxzrvw",
+      "ShortDescription": "Bu bölümde unit test, uygulama testleri ve ürün kalitesini arttırmak için olası yöntemleri tartıştık.",
+      "LongDescription": "",
+      "Attendees": [ "Barış Özaydın", "Deniz İrgin", "Fırat Özbolat", "Uğur Atar", "Mert Susur" ],
+      "Tags": [ "testing", "unit testing", "integration testing", "automated tests" ],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2016-11-29"
+    },
+    {
+      "Id": 7,
+      "Title": "Kod Standartları",
+      "Slug": "yedinci-bolum-kod-standartlari",
+      "SoundcloudId": "296585856",
+      "YoutubeUrl": "https://www.youtube.com/embed/4it2kw0U5c0",
+      "ShortDescription": "Bu programda isimlendirme standartlarını ve temiz clean code konuştuk.",
+      "LongDescription": "",
+      "Attendees": [ "Barış Özaydın", "Deniz İrgin", "Fırat Özbolat", "Uğur Atar", "Mert Susur" ],
+      "Tags": [ "code standards", "clean code" ],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2016-12-07"
+    },
+    {
+      "Id": 8,
+      "Title": "Pair Programming ve Kod Kalitesi",
+      "Slug": "sekizinci-bolum-pair-programming-ve-kod-kalitesi",
+      "SoundcloudId": "297623182",
+      "YoutubeUrl": "https://www.youtube.com/embed/mhAQe6r4tGg",
+      "ShortDescription": "Bu bölümde pair programming, yazılım kültürü ve kod kalitesini konuştuk.",
+      "LongDescription": "",
+      "Attendees": [ "Barış Özaydın", "Deniz İrgin", "Fırat Özbolat", "Uğur Atar", "Mert Susur", "Onur Aykaç" ],
+      "Tags": [ "pair programming", "extreme programming" ],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2016-12-13"
+    },
+    {
+      "Id": 9,
+      "Title": "REST API ve Tasarımı",
+      "Slug": "dokuzuncu-bolum-rest-api-ve-tasarimi",
+      "SoundcloudId": "302820015",
+      "YoutubeUrl": "https://www.youtube.com/embed/gjp1NdhbDkY",
+      "ShortDescription": "Bu bölümde REST API tasarımını ve REST standartlarını tartıştık.",
+      "LongDescription": "",
+      "Attendees": [ "Barış Özaydın", "Deniz İrgin", "Fırat Özbolat", "Uğur Atar", "Mert Susur", "Onur Aykaç" ],
+      "Tags": [ "rest", "restful api", "http", "soa", "soap" ],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2017-01-15"
+    },
+    {
+      "Id": 10,
+      "Title": "Ölçeklenebilirlik ve Yazılım Mimarları",
+      "Slug": "onuncu-bolum-onuncu-bolum-olceklenebilirlik-ve-yazilim-mimarlari",
+      "SoundcloudId": "304199267",
+      "YoutubeUrl": "https://www.youtube.com/embed/zBAEf1ns-5U",
+      "ShortDescription": "Bu bölümde ölçeklenebilir yazılım mimarisi ve yazılım mimarlarını konuştuk.",
+      "LongDescription": "",
+      "Attendees": [ "Barış Özaydın", "Deniz İrgin", "Deniz Özgen", "Fırat Özbolat", "Uğur Atar", "Mert Susur"],
+      "Tags": [ "software architecture", "scalability"],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2017-01-24"
+    },
+    {
+      "Id": 11,
+      "Title": "Firmanı Nasıl Değiştirebilirsin",
+      "Slug": "onbirinci-bolum-firmani-nasil-degistirebilirsin",
+      "SoundcloudId": "305752058",
+      "YoutubeUrl": "https://www.youtube.com/embed/uDUq1Z6fnV4",
+      "ShortDescription": "Yazılım firmalarının en büyük dertlerinden birini konuştuk, değişmeye direnen yazılım organizasyonlarını nasıl değiştirebilirsiniz?",
+      "LongDescription": "",
+      "Attendees": [ "Barış Özaydın", "Deniz İrgin", "Deniz Özgen", "Fırat Özbolat", "Uğur Atar", "Mert Susur"],
+      "Tags": [ "software company"],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2017-02-02"
+    },
+    {
+      "Id": 12,
+      "Title": "Teknolojilere Nasıl Karar Vermemeliyiz",
+      "Slug": "onikinci-bolum-teknolojilere-nasil-karar-vermemeliyiz",
+      "SoundcloudId": "306802681",
+      "YoutubeUrl": "https://www.youtube.com/embed/W8H8O3pH14",
+      "ShortDescription": "Bu bölümde teknoloji seçimlerimize nasıl karar vermemeliyiz konusunu konuştuk.",
+      "LongDescription": "",
+      "Attendees": [ "Barış Özaydın", "Deniz İrgin", "Deniz Özgen", "Fırat Özbolat", "Uğur Atar", "Mert Susur"],
+      "Tags": [ "framework"],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2017-02-09"
+    },
+    {
+      "Id": 13,
+      "Title": "Codefiction ve Komünite Değerleri",
+      "Slug": "onucuncu-bolum-codefiction-ve-komunite-degerleri",
+      "SoundcloudId": "308036049",
+      "YoutubeUrl": "https://www.youtube.com/embed/mZNaGCaT9zU",
+      "ShortDescription": "Bu bölümde tren yolculuğu sırasında Codefiction komünitesinin değerlerini tartıştık.",
+      "LongDescription": "",
+      "Attendees": [ "Barış Özaydın", "Deniz İrgin", "Deniz Özgen", "Fırat Özbolat", "Eray Acar", "Uğur Atar", "Mert Susur"],
+      "Tags": [ "codefiction"],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2017-02-16"
+    },
+    {
+      "Id": 14,
+      "Title": "Algoritmalar ve iş görüşmeleri",
+      "Slug": "ondorduncu-bolum-algoritmalar-ve-is-gorusmeleri",
+      "SoundcloudId": "309839447",
+      "YoutubeUrl": "https://www.youtube.com/embed/j5pg1dmn6z",
+      "ShortDescription": "İş görüşmelerinde sorulan algoritma sorularını ve iş etiğini tartıştık.",
+      "LongDescription": "",
+      "Attendees": [ "Barış Özaydın", "Deniz İrgin", "Deniz Özgen", "Fırat Özbolat", "Mahmut Gündoğdu", "Uğur Atar", "Mert Susur"],
+      "Tags": [ "codefiction"],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2017-02-27"
+    },
+    {
+      "Id": 15,
+      "Title": "Freelance Calışmak",
+      "Slug": "onbesinci-bolum-freelance-calismak",
+      "SoundcloudId": "310889039",
+      "YoutubeUrl": "https://www.youtube.com/embed/j5pg1dmn6z",
+      "ShortDescription": "Komuniteden gelen istek üzerine freelance çalışmak üzerine konuştuk ve sonunda da iş ararken nasıl CV hazırlamak gerekir,  iş bulmak için nasıl strateji belirlenir üzerine tartıştık. Bu hafta bize Uğur Aldanmaz katıldı.",
+      "LongDescription": "",
+      "Attendees": ["Deniz İrgin", "Deniz Özgen", "Uğur Aldanmaz", "Uğur Atar", "Mert Susur"],
+      "Tags": [ "freelance", "cv"],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2017-03-06"
     }
   ] 
 }

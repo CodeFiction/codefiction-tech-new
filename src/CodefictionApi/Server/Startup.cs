@@ -92,7 +92,6 @@ namespace Codefiction.CodefictionTech.CodefictionApi.Server
 
                 // Enable middleware to serve swagger-ui (HTML, JS, CSS etc.), specifying the Swagger JSON endpoint.
 
-
                 app.MapWhen(x => !x.Request.Path.Value.StartsWith("/swagger", StringComparison.OrdinalIgnoreCase),
                     builder =>
                     {
@@ -100,7 +99,7 @@ namespace Codefiction.CodefictionTech.CodefictionApi.Server
                         {
                             routes.MapSpaFallbackRoute(
                                 name: "spa-fallback",
-                                defaults: new {controller = "Home", action = "Index"});
+                                defaults: new { controller = "Home", action = "Index" });
                         });
                     });
             }
@@ -115,7 +114,7 @@ namespace Codefiction.CodefictionTech.CodefictionApi.Server
                     routes.MapRoute(
                         "Sitemap",
                         "sitemap.xml",
-                        new {controller = "Home", action = "SitemapXml"});
+                        new { controller = "Home", action = "SitemapXml" });
 
                     routes.MapSpaFallbackRoute(
                         name: "spa-fallback",
