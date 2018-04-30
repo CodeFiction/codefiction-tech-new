@@ -8,8 +8,19 @@
       "YoutubeUrl": "https://www.youtube.com/embed/H3SxXT4yRC4",
       "ShortDescription": "Codefiction podcast serisinin ilk bölümünde .Net Core ve Microsoft tarafındaki gelişmeleri konuştuk.",
       "LongDescription": "",
-      "Attendees": [ "Barış Özaydın", "Deniz İrgin", "Fırat Özbolat", "Uğur Atar", "Mert Susur" ],
-      "Tags": [ "dotnet", "dotnet core", "csharp", "microsoft" ],
+      "Attendees": [
+        "Barış Özaydın",
+        "Deniz İrgin",
+        "Fırat Özbolat",
+        "Uğur Atar",
+        "Mert Susur"
+      ],
+      "Tags": [
+        "dotnet",
+        "dotnet core",
+        "csharp",
+        "microsoft"
+      ],
       "Relations": [
         {
           "Type": "medium",
@@ -26,8 +37,17 @@
       "YoutubeUrl": "https://www.youtube.com/embed/JKJhOsBNfjs",
       "ShortDescription": "Microservice nedir? Ne ile yarar? Yaptığımızı ona mı devşirmeliyiz? Ne gibi sorunlara çözüm oluyor ya da ne gibi sorunlar olusturuyor? Tüm bu soruları tartıstık.",
       "LongDescription": "",
-      "Attendees": [ "Barış Özaydın", "Deniz İrgin", "Fırat Özbolat", "Uğur Atar", "Mert Susur" ],
-      "Tags": [ "microservice", "software architecture" ],
+      "Attendees": [
+        "Barış Özaydın",
+        "Deniz İrgin",
+        "Fırat Özbolat",
+        "Uğur Atar",
+        "Mert Susur"
+      ],
+      "Tags": [
+        "microservice",
+        "software architecture"
+      ],
       "Relations": [
         {
           "Type": "medium",
@@ -44,8 +64,19 @@
       "YoutubeUrl": "https://www.youtube.com/embed/fBwaQyQdMPM",
       "ShortDescription": "Popüler javascript kütüphanelerini ve modern javascript'in sorunlarını tartıştık.",
       "LongDescription": "",
-      "Attendees": [ "Barış Özaydın", "Deniz İrgin", "Fırat Özbolat", "Uğur Atar", "Mert Susur" ],
-      "Tags": [ "javascript", "javascript libraries", "angular", "react" ],
+      "Attendees": [
+        "Barış Özaydın",
+        "Deniz İrgin",
+        "Fırat Özbolat",
+        "Uğur Atar",
+        "Mert Susur"
+      ],
+      "Tags": [
+        "javascript",
+        "javascript libraries",
+        "angular",
+        "react"
+      ],
       "Relations": [
         {
           "Type": "medium",
@@ -62,8 +93,18 @@
       "YoutubeUrl": "https://www.youtube.com/embed/UdUbl1dAGRE",
       "ShortDescription": "Continuous Integration ve faydaları, kaliteye nasıl etkileri oluyor tartıştık. Bu bölümde Başar Köprücü de konuğumuz oldu.",
       "LongDescription": "",
-      "Attendees": [ "Barış Özaydın", "Başar Köprücü", "Deniz İrgin", "Fırat Özbolat", "Mert Susur" ],
-      "Tags": [ "software development", "agile development", "continuous integration" ],
+      "Attendees": [
+        "Barış Özaydın",
+        "Başar Köprücü",
+        "Deniz İrgin",
+        "Fırat Özbolat",
+        "Mert Susur"
+      ],
+      "Tags": [
+        "software development",
+        "agile development",
+        "continuous integration"
+      ],
       "Relations": [
         {
           "Type": "medium",
@@ -80,8 +121,17 @@
       "YoutubeUrl": "https://www.youtube.com/embed/l-jdSdUW6wM",
       "ShortDescription": "Farklı ülkelerde çalışan Codefiction üyelerinin çevik yöntemleri nasıl uyguladığını konuştuk ve pratikleri artılarıyla ve eksileriyle tartıştık.",
       "LongDescription": "",
-      "Attendees": [ "Deniz İrgin", "Fırat Özbolat", "Uğur Atar", "Mert Susur" ],
-      "Tags": [ "agile development", "software development", "agile" ],
+      "Attendees": [
+        "Deniz İrgin",
+        "Fırat Özbolat",
+        "Uğur Atar",
+        "Mert Susur"
+      ],
+      "Tags": [
+        "agile development",
+        "software development",
+        "agile"
+      ],
       "Relations": [
         {
           "Type": "medium",
@@ -98,8 +148,19 @@
       "YoutubeUrl": "https://www.youtube.com/embed/-8wFXOxzrvw",
       "ShortDescription": "Bu bölümde unit test, uygulama testleri ve ürün kalitesini arttırmak için olası yöntemleri tartıştık.",
       "LongDescription": "",
-      "Attendees": [ "Barış Özaydın", "Deniz İrgin", "Fırat Özbolat", "Uğur Atar", "Mert Susur" ],
-      "Tags": [ "testing", "unit testing", "integration testing", "automated tests" ],
+      "Attendees": [
+        "Barış Özaydın",
+        "Deniz İrgin",
+        "Fırat Özbolat",
+        "Uğur Atar",
+        "Mert Susur"
+      ],
+      "Tags": [
+        "testing",
+        "unit testing",
+        "integration testing",
+        "automated tests"
+      ],
       "Relations": [
         {
           "Type": "medium",
@@ -116,8 +177,17 @@
       "YoutubeUrl": "https://www.youtube.com/embed/4it2kw0U5c0",
       "ShortDescription": "Bu programda isimlendirme standartlarını ve temiz clean code konuştuk.",
       "LongDescription": "",
-      "Attendees": [ "Barış Özaydın", "Deniz İrgin", "Fırat Özbolat", "Uğur Atar", "Mert Susur" ],
-      "Tags": [ "code standards", "clean code" ],
+      "Attendees": [
+        "Barış Özaydın",
+        "Deniz İrgin",
+        "Fırat Özbolat",
+        "Uğur Atar",
+        "Mert Susur"
+      ],
+      "Tags": [
+        "code standards",
+        "clean code"
+      ],
       "Relations": [
         {
           "Type": "medium",
@@ -134,8 +204,18 @@
       "YoutubeUrl": "https://www.youtube.com/embed/mhAQe6r4tGg",
       "ShortDescription": "Bu bölümde pair programming, yazılım kültürü ve kod kalitesini konuştuk.",
       "LongDescription": "",
-      "Attendees": [ "Barış Özaydın", "Deniz İrgin", "Fırat Özbolat", "Uğur Atar", "Mert Susur", "Onur Aykaç" ],
-      "Tags": [ "pair programming", "extreme programming" ],
+      "Attendees": [
+        "Barış Özaydın",
+        "Deniz İrgin",
+        "Fırat Özbolat",
+        "Uğur Atar",
+        "Mert Susur",
+        "Onur Aykaç"
+      ],
+      "Tags": [
+        "pair programming",
+        "extreme programming"
+      ],
       "Relations": [
         {
           "Type": "medium",
@@ -152,8 +232,21 @@
       "YoutubeUrl": "https://www.youtube.com/embed/gjp1NdhbDkY",
       "ShortDescription": "Bu bölümde REST API tasarımını ve REST standartlarını tartıştık.",
       "LongDescription": "",
-      "Attendees": [ "Barış Özaydın", "Deniz İrgin", "Fırat Özbolat", "Uğur Atar", "Mert Susur", "Onur Aykaç" ],
-      "Tags": [ "rest", "restful api", "http", "soa", "soap" ],
+      "Attendees": [
+        "Barış Özaydın",
+        "Deniz İrgin",
+        "Fırat Özbolat",
+        "Uğur Atar",
+        "Mert Susur",
+        "Onur Aykaç"
+      ],
+      "Tags": [
+        "rest",
+        "restful api",
+        "http",
+        "soa",
+        "soap"
+      ],
       "Relations": [
         {
           "Type": "medium",
@@ -170,8 +263,18 @@
       "YoutubeUrl": "https://www.youtube.com/embed/zBAEf1ns-5U",
       "ShortDescription": "Bu bölümde ölçeklenebilir yazılım mimarisi ve yazılım mimarlarını konuştuk.",
       "LongDescription": "",
-      "Attendees": [ "Barış Özaydın", "Deniz İrgin", "Deniz Özgen", "Fırat Özbolat", "Uğur Atar", "Mert Susur"],
-      "Tags": [ "software architecture", "scalability"],
+      "Attendees": [
+        "Barış Özaydın",
+        "Deniz İrgin",
+        "Deniz Özgen",
+        "Fırat Özbolat",
+        "Uğur Atar",
+        "Mert Susur"
+      ],
+      "Tags": [
+        "software architecture",
+        "scalability"
+      ],
       "Relations": [
         {
           "Type": "medium",
@@ -188,8 +291,17 @@
       "YoutubeUrl": "https://www.youtube.com/embed/uDUq1Z6fnV4",
       "ShortDescription": "Yazılım firmalarının en büyük dertlerinden birini konuştuk, değişmeye direnen yazılım organizasyonlarını nasıl değiştirebilirsiniz?",
       "LongDescription": "",
-      "Attendees": [ "Barış Özaydın", "Deniz İrgin", "Deniz Özgen", "Fırat Özbolat", "Uğur Atar", "Mert Susur"],
-      "Tags": [ "software company"],
+      "Attendees": [
+        "Barış Özaydın",
+        "Deniz İrgin",
+        "Deniz Özgen",
+        "Fırat Özbolat",
+        "Uğur Atar",
+        "Mert Susur"
+      ],
+      "Tags": [
+        "software company"
+      ],
       "Relations": [
         {
           "Type": "medium",
@@ -206,8 +318,17 @@
       "YoutubeUrl": "https://www.youtube.com/embed/W8H8O3pH14",
       "ShortDescription": "Bu bölümde teknoloji seçimlerimize nasıl karar vermemeliyiz konusunu konuştuk.",
       "LongDescription": "",
-      "Attendees": [ "Barış Özaydın", "Deniz İrgin", "Deniz Özgen", "Fırat Özbolat", "Uğur Atar", "Mert Susur"],
-      "Tags": [ "framework"],
+      "Attendees": [
+        "Barış Özaydın",
+        "Deniz İrgin",
+        "Deniz Özgen",
+        "Fırat Özbolat",
+        "Uğur Atar",
+        "Mert Susur"
+      ],
+      "Tags": [
+        "framework"
+      ],
       "Relations": [
         {
           "Type": "medium",
@@ -224,8 +345,18 @@
       "YoutubeUrl": "https://www.youtube.com/embed/mZNaGCaT9zU",
       "ShortDescription": "Bu bölümde tren yolculuğu sırasında Codefiction komünitesinin değerlerini tartıştık.",
       "LongDescription": "",
-      "Attendees": [ "Barış Özaydın", "Deniz İrgin", "Deniz Özgen", "Fırat Özbolat", "Eray Acar", "Uğur Atar", "Mert Susur"],
-      "Tags": [ "codefiction"],
+      "Attendees": [
+        "Barış Özaydın",
+        "Deniz İrgin",
+        "Deniz Özgen",
+        "Fırat Özbolat",
+        "Eray Acar",
+        "Uğur Atar",
+        "Mert Susur"
+      ],
+      "Tags": [
+        "codefiction"
+      ],
       "Relations": [
         {
           "Type": "medium",
@@ -242,8 +373,18 @@
       "YoutubeUrl": "https://www.youtube.com/embed/j5pg1dmn6z",
       "ShortDescription": "İş görüşmelerinde sorulan algoritma sorularını ve iş etiğini tartıştık.",
       "LongDescription": "",
-      "Attendees": [ "Barış Özaydın", "Deniz İrgin", "Deniz Özgen", "Fırat Özbolat", "Mahmut Gündoğdu", "Uğur Atar", "Mert Susur"],
-      "Tags": [ "codefiction"],
+      "Attendees": [
+        "Barış Özaydın",
+        "Deniz İrgin",
+        "Deniz Özgen",
+        "Fırat Özbolat",
+        "Mahmut Gündoğdu",
+        "Uğur Atar",
+        "Mert Susur"
+      ],
+      "Tags": [
+        "codefiction"
+      ],
       "Relations": [
         {
           "Type": "medium",
@@ -260,8 +401,17 @@
       "YoutubeUrl": "https://www.youtube.com/embed/j5pg1dmn6z",
       "ShortDescription": "Komuniteden gelen istek üzerine freelance çalışmak üzerine konuştuk ve sonunda da iş ararken nasıl CV hazırlamak gerekir,  iş bulmak için nasıl strateji belirlenir üzerine tartıştık. Bu hafta bize Uğur Aldanmaz katıldı.",
       "LongDescription": "",
-      "Attendees": ["Deniz İrgin", "Deniz Özgen", "Uğur Aldanmaz", "Uğur Atar", "Mert Susur"],
-      "Tags": [ "freelance", "cv"],
+      "Attendees": [
+        "Deniz İrgin",
+        "Deniz Özgen",
+        "Uğur Aldanmaz",
+        "Uğur Atar",
+        "Mert Susur"
+      ],
+      "Tags": [
+        "freelance",
+        "cv"
+      ],
       "Relations": [
         {
           "Type": "medium",
@@ -269,6 +419,440 @@
         }
       ],
       "PublishDate": "2017-03-06"
+    },
+    {
+      "Id": 16,
+      "Title": "Canlı Sistemlerin Bakımı",
+      "Slug": "onaltinci-bolum-canli-sistemlerin-bakimi",
+      "SoundcloudId": "313399096",
+      "YoutubeUrl": "https://www.youtube.com/embed/XJjGgelFfi8",
+      "ShortDescription": "Bu bölümde canlı sistemlerin bakımlarını nasıl yaptığımızı konuştuk.",
+      "LongDescription": "",
+      "Attendees": [
+        "Barış Özaydın",
+        "Deniz İrgin",
+        "Deniz Özgen",
+        "Fırat Özbolat",
+        "Uğur Atar",
+        "Mert Susur"
+      ],
+      "Tags": [
+        "maintenance"
+      ],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2017-03-20"
+    },
+    {
+      "Id": 17,
+      "Title": "Güvenlik",
+      "Slug": "onyedinci-bolum-guvenlik",
+      "SoundcloudId": "317256127",
+      "YoutubeUrl": "https://www.youtube.com/embed/xuh93Np7qmE",
+      "ShortDescription": "Yoğunluk ve biraz da uyuşukluk sebebiyle üç hafta önce kaydettiğimiz yayınımızı ancak yükleyebiliyoruz. Bu yayında yazılım güvenliğini konuştuk. Biraz zayıf bir yayın oldu ama daha iyilerine hazırlık yapıyoruz!",
+      "LongDescription": "",
+      "Attendees": [
+        "Ahmet Erdem Kahveci",
+        "Fırat Özbolat",
+        "Uğur Atar",
+        "Mert Susur"
+      ],
+      "Tags": [
+        "security"
+      ],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2017-04-12"
+    },
+    {
+      "Id": 18,
+      "Title": "Güvenlik",
+      "Slug": "onsekizinci-bolum-yazilimcilar-icin-zihin-sagligi-ve-zaman-yonetimi",
+      "SoundcloudId": "319203064",
+      "YoutubeUrl": "https://www.youtube.com/embed/ccQ-Va_V4uA",
+      "ShortDescription": "Uzun bir aradan sonra uzak doğudan Onur'un da sesini duyduğumuz yayınımızda komuniteden gelen sorulari dilimiz döndüğünce cevaplamaya çalıştık ve sağlam vucut sağlam kafayla olur diyerek zihinsel sağlığını nasıl korumalıyız diye tartıştık.",
+      "LongDescription": "",
+      "Attendees": [
+        "Barış Özaydın",
+        "Deniz İrgin",
+        "Fırat Özbolat",
+        "Uğur Atar",
+        "Mert Susur",
+        "Onur Aykaç"
+      ],
+      "Tags": [
+        "mental health for developers"
+      ],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2017-04-24"
+    },
+    {
+      "Id": 20,
+      "Title": "Sansürler ve Yasaklar",
+      "Slug": "yirminci-bolum-sansurler-ve-yasaklar",
+      "SoundcloudId": "323935640",
+      "YoutubeUrl": "https://www.youtube.com/embed/qQJRaisikXY",
+      "ShortDescription": "Bu kısa programda Wikipedia sansürünü, adil kullanım kotasını, yasakları konuştuk. Mehmet ve Mustafa'nın katkısıyla da hep beraber kaydı düzenledik. Çok teşekkürler. Ne yazık ki bahsi geçen meetup'ı yapamadık, ama olsun. Önümüzdekilere bakıyoruz.",
+      "LongDescription": "",
+      "Attendees": [
+        "Barış Özaydın",
+        "Fırat Özbolat",
+        "Uğur Atar",
+        "Mert Susur",
+        "Onur Aykaç"
+      ],
+      "Tags": [
+        "wikipedia",
+        "sansür"
+      ],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2017-05-22"
+    },
+    {
+      "Id": 21,
+      "Title": "Yazılım Geliştirme Döngüsü",
+      "Slug": "yirmibirinci-bolum-yazilim-gelistirme-dongusu",
+      "SoundcloudId": "322780318",
+      "YoutubeUrl": null,
+      "ShortDescription": "İlk canlı yayın kaydımızda Yazılım Geliştirme Döngüsünün ilk aşamalarını tartıştık. Ayrıca geçen hafta gerçekleşen Microsoft Build etkinliğini ve Google'ın yeni işletim sistemi olarak tanıttığı Fuchsia üzerine konuştuk.",
+      "LongDescription": "",
+      "Attendees": [
+        "Barış Özaydın",
+        "Deniz İrgin",
+        "Deniz Özgen",
+        "Fırat Özbolat",
+        "Uğur Atar",
+        "Mert Susur",
+        "Onur Aykaç"
+      ],
+      "Tags": [
+        "software development lifecycle"
+      ],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2017-05-15"
+    },
+    {
+      "Id": 22,
+      "Title": "Google IO 2017, Serverless, Önceliklendirme",
+      "Slug": "yirmiikinci-bolum-google-io-serverless-onceliklendirme",
+      "SoundcloudId": "324859988",
+      "YoutubeUrl": "https://www.youtube.com/embed/vlAMcrTTpAs",
+      "ShortDescription": "Bu sefer yeniden uzun bir kayıt yaptık, kayıt sonrası neredeyse hiç edit olmadığı için rastladığınız hataları lütfen mazur görün.\n\rÖnce Google IO konuştuk, sonra Serverless Mimarileri ve AWS Lambda'yı tartıştık ama asıl konumuz geçen haftanın devamı olan Yazılım Geliştirme Döngüsüyle tamamladık. Önceliklendirme nasıl yapılmalı? Kimler ne şekilde bu sürece dahil olmalı? sorularına bildiğimiz kadarıyla cevap bulmaya çalıştık.",
+      "LongDescription": "",
+      "Attendees": [
+        "Deniz İrgin",
+        "Deniz Özgen",
+        "Fırat Özbolat",
+        "Uğur Atar",
+        "Mert Susur"
+      ],
+      "Tags": [
+        "google io",
+        "serverless architecture"
+      ],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2017-05-28"
+    },
+    {
+      "Id": 23,
+      "Title": "Paket Yönetimi ve Teknoloji Seçimi",
+      "Slug": "yirmiucuncu-bolum-paket-yonetimi-ve-teknoloji-secimi",
+      "SoundcloudId": "326830840",
+      "YoutubeUrl": "https://www.youtube.com/embed/4SuMsokTztg",
+      "ShortDescription": "NPM, Nuget, Composer, Bower, Maven, Chocolatey gibi paket yönetimi araçlarını konuştuk ve geçen hafta bıraktığımız yerden Yazılım Geliştirme Döngüsüne devam ettik. Biz çok eğlendik, umarım sizler için de eğlenceli bir dinlence olur.",
+      "LongDescription": "",
+      "Attendees": [
+        "Deniz İrgin",
+        "Fırat Özbolat",
+        "Uğur Atar",
+        "Mert Susur"
+      ],
+      "Tags": [
+        "package management"
+      ],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2017-06-07"
+    },
+    {
+      "Id": 24,
+      "Title": "Http2, Yazılımcının Yobazlaşması ve biraz da Ethereum",
+      "Slug": "yirmidorduncu-bolum-nasil-devops-deneyimi-kazaniriz",
+      "SoundcloudId": "329400697",
+      "YoutubeUrl": "https://www.youtube.com/embed/vkYUIIQPmpc",
+      "ShortDescription": "Önce yazılımcılara dayatılan kılık kıyafet kurallarını eleştirdik ve gerekli yerlere göndermeler yaptıktan sonra da Gitter'da geçen günlerde tartıştığımız bir konu olan 'Nasıl DevOps konusunda kendimi geliştirebilirim' sorusu üzerine tartıştık. Umarız eğlenerek dinlersiniz.",
+      "LongDescription": "",
+      "Attendees": [
+        "Barış Özaydın",
+        "Deniz İrgin",
+        "Deniz Özgen",
+        "Fırat Özbolat",
+        "Mert Susur"
+      ],
+      "Tags": [
+        "http2",
+        "Ethereum"
+      ],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2017-06-22"
+    },
+    {
+      "Id": 25,
+      "Title": "Http2, Yazılımcının Yobazlaşması ve biraz da Ethereum",
+      "Slug": "yirmibesinci-bolum-http2-yazilimcinin-yobazlasmasi-ve-biraz-da-ethereum",
+      "SoundcloudId": "329400697",
+      "YoutubeUrl": "https://www.youtube.com/embed/vkYUIIQPmpc",
+      "ShortDescription": "Kayda karışan Mert'in bahçesindeki kuş sesleriyle beraber Http/2 ile başlayıp geçen hafta söz verdiğimiz gibi yazılımcının yobazlaşmasını konuştuk. Sonra da son zamanların en hype konusu olan Ethereum konusuna bağladık.",
+      "LongDescription": "",
+      "Attendees": [
+        "Deniz İrgin",
+        "Deniz Özgen",
+        "Uğur Atar",
+        "Mert Susur"
+      ],
+      "Tags": [
+        "http2",
+        "Ethereum"
+      ],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2017-06-22"
+    },
+    {
+      "Id": 26,
+      "Title": "AWS ve Front end Altyapıları",
+      "Slug": "yirmialtinci-bolum-aws-ve-front-end-altyapilari",
+      "SoundcloudId": "331430961",
+      "YoutubeUrl": "https://www.youtube.com/embed/-0QMYqXtbV8",
+      "ShortDescription": "Deniz (İrgin) bir haftasonu boyunca uyumadan Lambda çalışınca konumuz mecburen AWS Lambda ve SNS oldu. Sonra inanmazsınız ama Angular kötüledik, vuejs övdük. Ayrıca patreon sayfamızı www.patreon.com/codefiction güncelledik ve neden patreon sayfamızı önemsediğimizi konuştuk.",
+      "LongDescription": "",
+      "Attendees": [
+        "Deniz İrgin",
+        "Deniz Özgen",
+        "Uğur Atar",
+        "Mert Susur"
+      ],
+      "Tags": [
+        "AWS",
+        "AWS Lambda",
+        "serverless architecture"
+      ],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2017-07-04"
+    },
+    {
+      "Id": 27,
+      "Title": "Product Manager Ne İş Yapar?",
+      "Slug": "yirmiyedinci-bolum-product-manager-ne-is-yapar",
+      "SoundcloudId": "332574573",
+      "YoutubeUrl": "https://www.youtube.com/embed/18V0rcHkOsM",
+      "ShortDescription": "Bu bölümde Webrazzi'den Erman Taylan bize konuk oldu sonunda bir Product Manager ile 'Yahu ne iş yapar bu product manager? Product owner'dan farkı nedir? Nasıl özellikleri olmalı?' sorusunu tartıştık. On numara konuklu beş yıldızlı bir program oldu.",
+      "LongDescription": "",
+      "Attendees": [
+        "Barış Özaydın",
+        "Erman Taylan",
+        "Deniz İrgin",
+        "Deniz Özgen",
+        "Fırat Özbolat",
+        "Uğur Atar",
+        "Mert Susur"
+      ],
+      "Tags": [
+        "product manager"
+      ],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2017-07-11"
+    },
+    {
+      "Id": 28,
+      "Title": "Daha çok AWS Lambda ve daha çok Ethereum",
+      "Slug": "yirmisekizinci-bolum-daha-cok-aws-lambda-ve-daha-cok-ethereum",
+      "SoundcloudId": "333622179",
+      "YoutubeUrl": "https://www.youtube.com/embed/VzVFxrR9cbk",
+      "ShortDescription": "Geçtiğimiz hafta çok güzel çalışıp sitemizi ve elimizdeki her şeyi AWS'e geçirdik. Haliyle bu hafta konuşmasak olmazdı. E tabi yine gündemimizde sıcak konulardan biri olarak Ethereum var. Madem dedik bu kadar füturistik konuları konuşuyoruz o zaman neden bilimkurguya da girmeyelim! Kapanışta da yerli amatör gruplara yer vermeye başladık, ilk şarkı DUDE'den geldi.",
+      "LongDescription": "",
+      "Attendees": [
+        "Barış Özaydın",
+        "Erman Taylan",
+        "Deniz İrgin",
+        "Deniz Özgen",
+        "Fırat Özbolat",
+        "Uğur Atar",
+        "Mert Susur"
+      ],
+      "Tags": [
+        "AWS",
+        "AWS Lambda",
+        "serverless architecture",
+        "Ethereum"
+      ],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2017-07-18"
+    },
+    {
+      "Id": 29,
+      "Title": "Yazılım Eğitimi Nasıl Seçilir?",
+      "Slug": "yirmidokuzuncu-bolum-yazilim-egitimi-nasil-secilir",
+      "SoundcloudId": "334629100",
+      "YoutubeUrl": "https://www.youtube.com/embed/z2VNniCaHZg",
+      "ShortDescription": "Forumlarda ve gruplarda en çok sorulan sorulardan birini tartıştık bu sefer, Yazılım eğitimi nasıl seçersin? Hangi sitelerden online eğitim almak iyi olur? Yeni başlayan biri kendini nasıl geliştirir? Herkese bir şekilde sataştıktan sonra kapanışı on numara bir şarkıyla yaptık.",
+      "LongDescription": "",
+      "Attendees": [
+        "Deniz İrgin",
+        "Deniz Özgen",
+        "Fırat Özbolat",
+        "Mert Susur"
+      ],
+      "Tags": [
+        "software training"
+      ],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2017-07-24"
+    },
+    {
+      "Id": 30,
+      "Title": "Gamification, Türkiye'de Bilgisayar Mühendisliği ve Akademisyenlik",
+      "Slug": "otuzuncu-bolum-gamification-turkiyede-bilgisayar-muhendisligi-ve-akademisyenlik",
+      "SoundcloudId": "335788044",
+      "YoutubeUrl": "https://www.youtube.com/embed/ZRu1GvhOWXs",
+      "ShortDescription": "Bu hafta yayınımıza 9 Eylül Üniversitesin'den Yr. Doç. Kökten Ulaş Birant konuk oldu. Gamification, Yazılım geliştirme süreçleri, Bilgisayar, Yazılım Mühendisliği ve Akademik Dünya - Yazılım Sektörü ilişkisi konularında oldukça keyifli bir sohbet gerçekleştirdik.",
+      "LongDescription": "",
+      "Attendees": [
+        "Kökten Ulaş Birant",
+        "Ahmet Erdem Kahveci",
+        "Deniz İrgin",
+        "Deniz Özgen",
+        "Fırat Özbolat",
+        "Uğur Atar"
+      ],
+      "Tags": [
+        "gamification",
+        "software engineering"
+      ],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2017-08-01"
+    },
+    {
+      "Id": 31,
+      "Title": "Güvenli Yazılım Geliştirme Süreçleri",
+      "Slug": "otuzbirinci-bolum-guvenli-yazilim-gelistirme-surecleri",
+      "SoundcloudId": "339624716",
+      "YoutubeUrl": "https://www.youtube.com/embed/WoJdZLhvv08",
+      "ShortDescription": "Bu hafta yayınımıza Microsoft'da Senior PFE Developer olarak çalışan Fatih Durgut konuk oldu. Güvenli Yazılım Süreçlerini konuştuğumuz bu programda, Güvenliğe doyduk, her yönüyle güvenlik konuştuk, biraz da ürktük, hafif paranoya yaptık. Bazı arkadaşlarımızın ertesi gün acil toplantılar düzenledikleri söyleniyor.",
+      "LongDescription": "",
+      "Attendees": [
+        "Barış Özaydın",
+        "Fatih Durgut",
+        "Deniz İrgin",
+        "Deniz Özgen",
+        "Uğur Atar"
+      ],
+      "Tags": [
+        "secure software"
+      ],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2017-08-01"
+    },
+    {
+      "Id": 32,
+      "Title": "Sezon Finali ve .Net Core",
+      "Slug": "otuzikinci-bolum-sezon-finali-ve-net-core",
+      "SoundcloudId": "340912503",
+      "YoutubeUrl": "https://www.youtube.com/embed/XF_Fvg4Y8E4",
+      "ShortDescription": "Bir iyi bir de kötü haberimiz var. Hangisinin iyi ya da kötü olduğuna siz karar verin! Sezon finali yapıyoruz, ama geri döneceğiz. Sezonu .Net Core özel programı ile açmıştık yeni versiyonuyla kapatıyoruz. Adamlar arada koskoca bir release yaptı biz hala konuşuyoruz. Yakında geri döneceğiz ama, merak etmeyin.",
+      "LongDescription": "",
+      "Attendees": [
+        "Barış Özaydın",
+        "Deniz İrgin",
+        "Fırat Özbolat",
+        "Mert Susur",
+        "Uğur Atar",
+        "Onur Aykaç"
+      ],
+      "Tags": [
+        "dotnet",
+        "dotnet core",
+        "csharp",
+        "microsoft"
+      ],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2017-09-05"
     }
-  ] 
+  ]
 }
