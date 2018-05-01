@@ -14,6 +14,8 @@ import { PodcastService } from '../../shared/podcasts.service';
 })
 export class PodcastsDetailsComponent implements OnInit {
     podcast: IPodcasts;
+    soundCloudUrl: SafeResourceUrl;
+    youtubeUrl: SafeResourceUrl;
 
     constructor(
         private sanitizer: DomSanitizer,
@@ -29,18 +31,13 @@ export class PodcastsDetailsComponent implements OnInit {
 
         this.podcastService.getPodcastbySlug(slug).subscribe(result => {
             this.podcast = result;
+
+            let soundCloudUrl: string = 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/' +
+                this.podcast.soundcloudId + '&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true';
+
+            this.soundCloudUrl = this.sanitizer.bypassSecurityTrustResourceUrl(soundCloudUrl);
+            this.youtubeUrl = this.sanitizer.bypassSecurityTrustResourceUrl(this.podcast.youtubeUrl);
         });
-    }
-
-    getYoutubeUrl(): SafeResourceUrl {
-        return this.sanitizer.bypassSecurityTrustResourceUrl(this.podcast.youtubeUrl);
-    }
-
-    getSoundCloudUrl(): SafeResourceUrl {
-        let soundCloudUrl: string = 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/' +
-            this.podcast.soundcloudId + '&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true';
-
-        return this.sanitizer.bypassSecurityTrustResourceUrl(soundCloudUrl);
     }
 
     gotoPodcasts() {

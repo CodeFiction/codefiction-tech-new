@@ -1,2 +1,4 @@
-Start-Process Powershell "ng build --env=dev --app 0 --watch" | Out-Null
-Start-Process Powershell "dotnet run"
+Start-Process Powershell "ng build --env=dev --app 0 --watch" ; Start-Process Powershell "ng build --env=dev --app 0 --watch" ;
+if ($?) {
+    Start-Process Powershell "dotnet run"
+}

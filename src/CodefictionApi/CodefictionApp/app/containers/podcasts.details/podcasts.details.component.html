@@ -3,7 +3,7 @@
     <div class="container page-content-wrapper" *ngIf="podcast">
         <div class="row">
             <div class="col-sm-12">
-                <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" [src]="getSoundCloudUrl()"></iframe>
+                <iframe style="visibility:hidden;" onload="this.style.visibility = 'visible';" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" [src]="soundCloudUrl"></iframe>
             </div>
         </div>
         <div class="row portfolio-detail-wrapper">
@@ -11,7 +11,7 @@
                 <h1>{{podcast.title}}</h1>
                 <p> {{podcast.shortDescription}} </p>
                 <p>
-                    <iframe width="560" height="315" [src]="getYoutubeUrl()" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <iframe style="visibility:hidden;" onload="this.style.visibility = 'visible';" width="560" height="315" [src]="youtubeUrl" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </p>
             </div>
             <div class="col-sm-3">
