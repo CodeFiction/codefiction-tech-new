@@ -9,7 +9,7 @@
       "YoutubeUrl": "https://www.youtube.com/embed/H3SxXT4yRC4",
       "ShortDescription": "Codefiction podcast serisinin ilk bölümünde .Net Core ve Microsoft tarafındaki gelişmeleri konuştuk.",
       "LongDescription": "",
-      "Guest" : null, 
+      "Guest": null,
       "Attendees": [
         "Barış Özaydın",
         "Deniz İrgin",
@@ -1300,22 +1300,89 @@
       "PublishDate": "2018-04-24"
     }
   ],
-  "Meetups": [],
+  "Meetups": [
+    {
+      "Id": 1,
+      "Title": "",
+      "Description": "",
+      "MeetupLink": "",
+      "Attendees": [
+        "Deniz İrgin",
+        "Mert Susur"
+      ],
+      "Videos": [],
+      "Sponsors": [],
+      "Photos": [],
+      "Date": "2017-01-26"
+    }
+  ],
   "Videos": [
     {
       "Id": 1,
-      "Season": 1,
-      "Title": "Dotnet Core",
-      "Slug": "birinci-bolum-dotnet-core",
-      "YoutubeUrl": "https://www.youtube.com/embed/H3SxXT4yRC4",
-      "ShortDescription": "Codefiction podcast serisinin ilk bölümünde .Net Core ve Microsoft tarafındaki gelişmeleri konuştuk.",
+      "Title": "Codefiction - Meetup Intro",
+      "Slug": "birinci-meetup-dotnet-core-angular-intro",
+      "YoutubeUrl": "https://www.youtube.com/embed/yrQFHNU2zEY",
+      "ShortDescription": "26.01.2017 tarihli birinci Codefiction Meetup'ı intro.",
       "LongDescription": "",
-      "Type": "",
+      "Type": "meetup",
       "Attendees": [
-        "Barış Özaydın",
         "Deniz İrgin",
-        "Fırat Özbolat",
-        "Uğur Atar",
+        "Mert Susur"
+      ],
+      "Tags": [
+        "dotnet",
+        "dotnet core",
+        "csharp",
+        "microsoft",
+        "angular2",
+        "angular"
+      ],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2017-01-26"
+    },
+    {
+      "Id": 2,
+      "Title": "Codefiction Meetup - 26-01-2017 - Bölüm 1 - Açılış Konuşması",
+      "Slug": "birinci-meetup-dotnet-core-angular-acilis-konusmasi",
+      "YoutubeUrl": "https://www.youtube.com/embed/7bV6dnWI9Io",
+      "ShortDescription": "26.01.2017 tarihli birinci Codefiction Meetup'ı açılış konuşması.",
+      "LongDescription": "",
+      "Type": "meetup",
+      "Attendees": [
+        "Deniz İrgin",
+        "Mert Susur"
+      ],
+      "Tags": [
+        "dotnet",
+        "dotnet core",
+        "csharp",
+        "microsoft",
+        "angular2",
+        "angular"
+      ],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2017-01-26"
+    },
+    {
+      "Id": 3,
+      "Title": "Codefiction Meetup - 26-01-2017 - Bölüm 2 - Deniz İrgin - .Net Core",
+      "Slug": "birinci-meetup-dotnet-core-deniz-irgin",
+      "YoutubeUrl": "https://www.youtube.com/embed/LiY6rmA6nM",
+      "ShortDescription": "26.01.2017 tarihli birinci Codefiction Meetup'ı. Deniz İrgin .Net Core anlatıyor.",
+      "LongDescription": "",
+      "Type": "meetup",
+      "Attendees": [
+        "Deniz İrgin",
         "Mert Susur"
       ],
       "Tags": [
@@ -1330,7 +1397,30 @@
           "Id": 1
         }
       ],
-      "PublishDate": "2016-10-28"
+      "PublishDate": "2017-01-26"
+    },
+    {
+      "Id": 4,
+      "Title": "Codefiction Meetup - 26-01-2017 - Bölüm 3 - Mert Susur - Angular 2 ve Sohbet",
+      "Slug": "birinci-meetup-angular-mert-susur",
+      "YoutubeUrl": "https://www.youtube.com/embed/kcPX1bhVA8Y",
+      "ShortDescription": "26.01.2017 tarihli birinci Codefiction Meetup'ı. Mert Susur Angular 2 anlatıyor.",
+      "LongDescription": "",
+      "Type": "meetup",
+      "Attendees": [
+        "Deniz İrgin",
+        "Mert Susur"
+      ],
+      "Tags": [
+        "angular"
+      ],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2017-01-26"
     }
   ],
   "People": [
@@ -1573,6 +1663,37 @@
       "Github": null,
       "Email": null,
       "Website": "http://debis.deu.edu.tr/DEUWeb/Icerik/Icerik.php?KOD=6784"
+    },
+    {
+      "Id": 20,
+      "Name": "Özgün Bal",
+      "PicUrl": "",
+      "Type": "Crew",
+      "Linkedin": "https://www.linkedin.com/in/ozgunbal",
+      "Twitter": null,
+      "Medium": "https://medium.com/@ozgunbal",
+      "Github": "https://github.com/ozgunbal",
+      "Email": null,
+      "Website": null
+    },
+    {
+      "Id": 21,
+      "Name": "Günay Özkan",
+      "PicUrl": "",
+      "Type": "Guest",
+      "Linkedin": "https://www.linkedin.com/in/gunay-ozkan-5303432/",
+      "Twitter": null,
+      "Medium": null,
+      "Github": null,
+      "Email": null,
+      "Website": null
+    }
+  ],
+  "Sponsors": [
+    {
+      "Id": 1,
+      "Name": "armut.com",
+      "LogoUrl": ""
     }
   ]
 }
