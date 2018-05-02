@@ -4,8 +4,8 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/switchMap';
 
-import { IPodcast as IPodcasts } from '../../models/Podcasts';
 import { PodcastService } from '../../shared/podcasts.service';
+import { IPodcast } from '../../models/contracts/IPodcast';
 
 @Component({
     selector: 'app-podcasts.details',
@@ -13,7 +13,7 @@ import { PodcastService } from '../../shared/podcasts.service';
     styleUrls: ['./podcasts.details.component.css']
 })
 export class PodcastsDetailsComponent implements OnInit {
-    podcast: IPodcasts;
+    podcast: IPodcast;
     soundCloudUrl: SafeResourceUrl;
     youtubeUrl: SafeResourceUrl;
 

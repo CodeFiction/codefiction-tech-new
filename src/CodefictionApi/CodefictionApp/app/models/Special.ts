@@ -1,7 +1,7 @@
 ﻿import { IPodcast } from './contracts/IPodcast';
 import { IRelation } from './contracts/IRelation';
 
-export class Podcast implements IPodcast {
+export class Special implements IPodcast {
   season: number;
   soundcloudId: string;
   guest: string;

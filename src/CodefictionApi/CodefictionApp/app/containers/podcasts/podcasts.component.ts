@@ -1,8 +1,8 @@
 import { Component, OnInit, PLATFORM_ID, Inject } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
 
-import { IPodcast as IPodcasts } from '../../models/Podcasts';
 import { PodcastService } from '../../shared/podcasts.service';
+import { Podcast } from '../../models/Podcasts';
 
 @Component({
     selector: 'app-podcasts',
@@ -10,7 +10,7 @@ import { PodcastService } from '../../shared/podcasts.service';
     styleUrls: ['./podcasts.component.css']
 })
 export class PodcastsComponent implements OnInit {
-    podcasts: IPodcasts[];
+    podcasts: Podcast[];
 
     constructor(
         @Inject(PLATFORM_ID) private platformId: Object,

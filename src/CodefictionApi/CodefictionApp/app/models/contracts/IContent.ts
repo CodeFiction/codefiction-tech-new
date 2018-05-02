@@ -1,10 +1,6 @@
-﻿import { IPodcast } from './contracts/IPodcast';
-import { IRelation } from './contracts/IRelation';
+﻿import { IRelation } from './IRelation';
 
-export class Podcast implements IPodcast {
-  season: number;
-  soundcloudId: string;
-  guest: string;
+export interface IContent {
   id: number;
   title: string;
   slug: string;

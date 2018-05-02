@@ -2,12 +2,14 @@
   "Podcasts": [
     {
       "Id": 1,
+      "Season": 1,
       "Title": "Dotnet Core",
       "Slug": "birinci-bolum-dotnet-core",
       "SoundcloudId": "290404729",
       "YoutubeUrl": "https://www.youtube.com/embed/H3SxXT4yRC4",
       "ShortDescription": "Codefiction podcast serisinin ilk bölümünde .Net Core ve Microsoft tarafındaki gelişmeleri konuştuk.",
       "LongDescription": "",
+      "Guest" : null, 
       "Attendees": [
         "Barış Özaydın",
         "Deniz İrgin",
@@ -31,12 +33,14 @@
     },
     {
       "Id": 2,
+      "Season": 1,
       "Title": "Microservices",
       "Slug": "ikinci-bolum-microservices",
       "SoundcloudId": "291418126",
       "YoutubeUrl": "https://www.youtube.com/embed/JKJhOsBNfjs",
       "ShortDescription": "Microservice nedir? Ne ile yarar? Yaptığımızı ona mı devşirmeliyiz? Ne gibi sorunlara çözüm oluyor ya da ne gibi sorunlar olusturuyor? Tüm bu soruları tartıstık.",
       "LongDescription": "",
+      "Guest": null,
       "Attendees": [
         "Barış Özaydın",
         "Deniz İrgin",
@@ -58,12 +62,14 @@
     },
     {
       "Id": 3,
+      "Season": 1,
       "Title": "Javascript Kütüphaneleri",
       "Slug": "ucuncu-bolum-javascript-kutuphaneleri",
       "SoundcloudId": "292006677",
       "YoutubeUrl": "https://www.youtube.com/embed/fBwaQyQdMPM",
       "ShortDescription": "Popüler javascript kütüphanelerini ve modern javascript'in sorunlarını tartıştık.",
       "LongDescription": "",
+      "Guest": null,
       "Attendees": [
         "Barış Özaydın",
         "Deniz İrgin",
@@ -87,15 +93,16 @@
     },
     {
       "Id": 4,
+      "Season": 1,
       "Title": "Continuous Integration",
       "Slug": "dorduncu-bolum-continuous-integration",
       "SoundcloudId": "293570101",
       "YoutubeUrl": "https://www.youtube.com/embed/UdUbl1dAGRE",
       "ShortDescription": "Continuous Integration ve faydaları, kaliteye nasıl etkileri oluyor tartıştık. Bu bölümde Başar Köprücü de konuğumuz oldu.",
       "LongDescription": "",
+      "Guest": "Başar Köprücü",
       "Attendees": [
         "Barış Özaydın",
-        "Başar Köprücü",
         "Deniz İrgin",
         "Fırat Özbolat",
         "Mert Susur"
@@ -115,12 +122,14 @@
     },
     {
       "Id": 5,
+      "Season": 1,
       "Title": "Çevik Yazılım Geliştirme Yöntemleri",
       "Slug": "besinci-bolum-cevik-yazilim-gelistirme-yontemleri",
       "SoundcloudId": "294342637",
       "YoutubeUrl": "https://www.youtube.com/embed/l-jdSdUW6wM",
       "ShortDescription": "Farklı ülkelerde çalışan Codefiction üyelerinin çevik yöntemleri nasıl uyguladığını konuştuk ve pratikleri artılarıyla ve eksileriyle tartıştık.",
       "LongDescription": "",
+      "Guest": null,
       "Attendees": [
         "Deniz İrgin",
         "Fırat Özbolat",
@@ -142,12 +151,14 @@
     },
     {
       "Id": 6,
+      "Season": 1,
       "Title": "Uygulama Testleri",
       "Slug": "altinci-bolum-uygulama-testleri",
       "SoundcloudId": "295243070",
       "YoutubeUrl": "https://www.youtube.com/embed/-8wFXOxzrvw",
       "ShortDescription": "Bu bölümde unit test, uygulama testleri ve ürün kalitesini arttırmak için olası yöntemleri tartıştık.",
       "LongDescription": "",
+      "Guest": null,
       "Attendees": [
         "Barış Özaydın",
         "Deniz İrgin",
@@ -171,12 +182,14 @@
     },
     {
       "Id": 7,
+      "Season": 1,
       "Title": "Kod Standartları",
       "Slug": "yedinci-bolum-kod-standartlari",
       "SoundcloudId": "296585856",
       "YoutubeUrl": "https://www.youtube.com/embed/4it2kw0U5c0",
       "ShortDescription": "Bu programda isimlendirme standartlarını ve temiz clean code konuştuk.",
       "LongDescription": "",
+      "Guest": null,
       "Attendees": [
         "Barış Özaydın",
         "Deniz İrgin",
@@ -198,12 +211,14 @@
     },
     {
       "Id": 8,
+      "Season": 1,
       "Title": "Pair Programming ve Kod Kalitesi",
       "Slug": "sekizinci-bolum-pair-programming-ve-kod-kalitesi",
       "SoundcloudId": "297623182",
       "YoutubeUrl": "https://www.youtube.com/embed/mhAQe6r4tGg",
       "ShortDescription": "Bu bölümde pair programming, yazılım kültürü ve kod kalitesini konuştuk.",
       "LongDescription": "",
+      "Guest": null,
       "Attendees": [
         "Barış Özaydın",
         "Deniz İrgin",
@@ -226,12 +241,14 @@
     },
     {
       "Id": 9,
+      "Season": 1,
       "Title": "REST API ve Tasarımı",
       "Slug": "dokuzuncu-bolum-rest-api-ve-tasarimi",
       "SoundcloudId": "302820015",
       "YoutubeUrl": "https://www.youtube.com/embed/gjp1NdhbDkY",
       "ShortDescription": "Bu bölümde REST API tasarımını ve REST standartlarını tartıştık.",
       "LongDescription": "",
+      "Guest": null,
       "Attendees": [
         "Barış Özaydın",
         "Deniz İrgin",
@@ -257,12 +274,14 @@
     },
     {
       "Id": 10,
+      "Season": 1,
       "Title": "Ölçeklenebilirlik ve Yazılım Mimarları",
       "Slug": "onuncu-bolum-onuncu-bolum-olceklenebilirlik-ve-yazilim-mimarlari",
       "SoundcloudId": "304199267",
       "YoutubeUrl": "https://www.youtube.com/embed/zBAEf1ns-5U",
       "ShortDescription": "Bu bölümde ölçeklenebilir yazılım mimarisi ve yazılım mimarlarını konuştuk.",
       "LongDescription": "",
+      "Guest": null,
       "Attendees": [
         "Barış Özaydın",
         "Deniz İrgin",
@@ -285,12 +304,14 @@
     },
     {
       "Id": 11,
+      "Season": 1,
       "Title": "Firmanı Nasıl Değiştirebilirsin",
       "Slug": "onbirinci-bolum-firmani-nasil-degistirebilirsin",
       "SoundcloudId": "305752058",
       "YoutubeUrl": "https://www.youtube.com/embed/uDUq1Z6fnV4",
       "ShortDescription": "Yazılım firmalarının en büyük dertlerinden birini konuştuk, değişmeye direnen yazılım organizasyonlarını nasıl değiştirebilirsiniz?",
       "LongDescription": "",
+      "Guest": null,
       "Attendees": [
         "Barış Özaydın",
         "Deniz İrgin",
@@ -312,12 +333,14 @@
     },
     {
       "Id": 12,
+      "Season": 1,
       "Title": "Teknolojilere Nasıl Karar Vermemeliyiz",
       "Slug": "onikinci-bolum-teknolojilere-nasil-karar-vermemeliyiz",
       "SoundcloudId": "306802681",
       "YoutubeUrl": "https://www.youtube.com/embed/W8H8O3pH14",
       "ShortDescription": "Bu bölümde teknoloji seçimlerimize nasıl karar vermemeliyiz konusunu konuştuk.",
       "LongDescription": "",
+      "Guest": null,
       "Attendees": [
         "Barış Özaydın",
         "Deniz İrgin",
@@ -339,18 +362,19 @@
     },
     {
       "Id": 13,
+      "Season": 1,
       "Title": "Codefiction ve Komünite Değerleri",
       "Slug": "onucuncu-bolum-codefiction-ve-komunite-degerleri",
       "SoundcloudId": "308036049",
       "YoutubeUrl": "https://www.youtube.com/embed/mZNaGCaT9zU",
       "ShortDescription": "Bu bölümde tren yolculuğu sırasında Codefiction komünitesinin değerlerini tartıştık.",
       "LongDescription": "",
+      "Guest": "Eray Acar",
       "Attendees": [
         "Barış Özaydın",
         "Deniz İrgin",
         "Deniz Özgen",
         "Fırat Özbolat",
-        "Eray Acar",
         "Uğur Atar",
         "Mert Susur"
       ],
@@ -367,12 +391,14 @@
     },
     {
       "Id": 14,
+      "Season": 1,
       "Title": "Algoritmalar ve iş görüşmeleri",
       "Slug": "ondorduncu-bolum-algoritmalar-ve-is-gorusmeleri",
       "SoundcloudId": "309839447",
       "YoutubeUrl": "https://www.youtube.com/embed/j5pg1dmn6z",
       "ShortDescription": "İş görüşmelerinde sorulan algoritma sorularını ve iş etiğini tartıştık.",
       "LongDescription": "",
+      "Guest": null,
       "Attendees": [
         "Barış Özaydın",
         "Deniz İrgin",
@@ -395,12 +421,14 @@
     },
     {
       "Id": 15,
+      "Season": 1,
       "Title": "Freelance Calışmak",
       "Slug": "onbesinci-bolum-freelance-calismak",
       "SoundcloudId": "310889039",
       "YoutubeUrl": "https://www.youtube.com/embed/j5pg1dmn6z",
       "ShortDescription": "Komuniteden gelen istek üzerine freelance çalışmak üzerine konuştuk ve sonunda da iş ararken nasıl CV hazırlamak gerekir,  iş bulmak için nasıl strateji belirlenir üzerine tartıştık. Bu hafta bize Uğur Aldanmaz katıldı.",
       "LongDescription": "",
+      "Guest": null,
       "Attendees": [
         "Deniz İrgin",
         "Deniz Özgen",
@@ -422,12 +450,14 @@
     },
     {
       "Id": 16,
+      "Season": 1,
       "Title": "Canlı Sistemlerin Bakımı",
       "Slug": "onaltinci-bolum-canli-sistemlerin-bakimi",
       "SoundcloudId": "313399096",
       "YoutubeUrl": "https://www.youtube.com/embed/XJjGgelFfi8",
       "ShortDescription": "Bu bölümde canlı sistemlerin bakımlarını nasıl yaptığımızı konuştuk.",
       "LongDescription": "",
+      "Guest": null,
       "Attendees": [
         "Barış Özaydın",
         "Deniz İrgin",
@@ -449,12 +479,14 @@
     },
     {
       "Id": 17,
+      "Season": 1,
       "Title": "Güvenlik",
       "Slug": "onyedinci-bolum-guvenlik",
       "SoundcloudId": "317256127",
       "YoutubeUrl": "https://www.youtube.com/embed/xuh93Np7qmE",
       "ShortDescription": "Yoğunluk ve biraz da uyuşukluk sebebiyle üç hafta önce kaydettiğimiz yayınımızı ancak yükleyebiliyoruz. Bu yayında yazılım güvenliğini konuştuk. Biraz zayıf bir yayın oldu ama daha iyilerine hazırlık yapıyoruz!",
       "LongDescription": "",
+      "Guest": null,
       "Attendees": [
         "Ahmet Erdem Kahveci",
         "Fırat Özbolat",
@@ -474,12 +506,14 @@
     },
     {
       "Id": 18,
+      "Season": 1,
       "Title": "Güvenlik",
       "Slug": "onsekizinci-bolum-yazilimcilar-icin-zihin-sagligi-ve-zaman-yonetimi",
       "SoundcloudId": "319203064",
       "YoutubeUrl": "https://www.youtube.com/embed/ccQ-Va_V4uA",
       "ShortDescription": "Uzun bir aradan sonra uzak doğudan Onur'un da sesini duyduğumuz yayınımızda komuniteden gelen sorulari dilimiz döndüğünce cevaplamaya çalıştık ve sağlam vucut sağlam kafayla olur diyerek zihinsel sağlığını nasıl korumalıyız diye tartıştık.",
       "LongDescription": "",
+      "Guest": null,
       "Attendees": [
         "Barış Özaydın",
         "Deniz İrgin",
@@ -501,12 +535,14 @@
     },
     {
       "Id": 20,
+      "Season": 1,
       "Title": "Sansürler ve Yasaklar",
       "Slug": "yirminci-bolum-sansurler-ve-yasaklar",
       "SoundcloudId": "323935640",
       "YoutubeUrl": "https://www.youtube.com/embed/qQJRaisikXY",
       "ShortDescription": "Bu kısa programda Wikipedia sansürünü, adil kullanım kotasını, yasakları konuştuk. Mehmet ve Mustafa'nın katkısıyla da hep beraber kaydı düzenledik. Çok teşekkürler. Ne yazık ki bahsi geçen meetup'ı yapamadık, ama olsun. Önümüzdekilere bakıyoruz.",
       "LongDescription": "",
+      "Guest": null,
       "Attendees": [
         "Barış Özaydın",
         "Fırat Özbolat",
@@ -528,12 +564,14 @@
     },
     {
       "Id": 21,
+      "Season": 1,
       "Title": "Yazılım Geliştirme Döngüsü",
       "Slug": "yirmibirinci-bolum-yazilim-gelistirme-dongusu",
       "SoundcloudId": "322780318",
       "YoutubeUrl": null,
       "ShortDescription": "İlk canlı yayın kaydımızda Yazılım Geliştirme Döngüsünün ilk aşamalarını tartıştık. Ayrıca geçen hafta gerçekleşen Microsoft Build etkinliğini ve Google'ın yeni işletim sistemi olarak tanıttığı Fuchsia üzerine konuştuk.",
       "LongDescription": "",
+      "Guest": null,
       "Attendees": [
         "Barış Özaydın",
         "Deniz İrgin",
@@ -556,12 +594,14 @@
     },
     {
       "Id": 22,
+      "Season": 1,
       "Title": "Google IO 2017, Serverless, Önceliklendirme",
       "Slug": "yirmiikinci-bolum-google-io-serverless-onceliklendirme",
       "SoundcloudId": "324859988",
       "YoutubeUrl": "https://www.youtube.com/embed/vlAMcrTTpAs",
       "ShortDescription": "Bu sefer yeniden uzun bir kayıt yaptık, kayıt sonrası neredeyse hiç edit olmadığı için rastladığınız hataları lütfen mazur görün.\n\rÖnce Google IO konuştuk, sonra Serverless Mimarileri ve AWS Lambda'yı tartıştık ama asıl konumuz geçen haftanın devamı olan Yazılım Geliştirme Döngüsüyle tamamladık. Önceliklendirme nasıl yapılmalı? Kimler ne şekilde bu sürece dahil olmalı? sorularına bildiğimiz kadarıyla cevap bulmaya çalıştık.",
       "LongDescription": "",
+      "Guest": null,
       "Attendees": [
         "Deniz İrgin",
         "Deniz Özgen",
@@ -583,12 +623,14 @@
     },
     {
       "Id": 23,
+      "Season": 1,
       "Title": "Paket Yönetimi ve Teknoloji Seçimi",
       "Slug": "yirmiucuncu-bolum-paket-yonetimi-ve-teknoloji-secimi",
       "SoundcloudId": "326830840",
       "YoutubeUrl": "https://www.youtube.com/embed/4SuMsokTztg",
       "ShortDescription": "NPM, Nuget, Composer, Bower, Maven, Chocolatey gibi paket yönetimi araçlarını konuştuk ve geçen hafta bıraktığımız yerden Yazılım Geliştirme Döngüsüne devam ettik. Biz çok eğlendik, umarım sizler için de eğlenceli bir dinlence olur.",
       "LongDescription": "",
+      "Guest": null,
       "Attendees": [
         "Deniz İrgin",
         "Fırat Özbolat",
@@ -608,12 +650,14 @@
     },
     {
       "Id": 24,
+      "Season": 1,
       "Title": "Http2, Yazılımcının Yobazlaşması ve biraz da Ethereum",
       "Slug": "yirmidorduncu-bolum-nasil-devops-deneyimi-kazaniriz",
       "SoundcloudId": "329400697",
       "YoutubeUrl": "https://www.youtube.com/embed/vkYUIIQPmpc",
       "ShortDescription": "Önce yazılımcılara dayatılan kılık kıyafet kurallarını eleştirdik ve gerekli yerlere göndermeler yaptıktan sonra da Gitter'da geçen günlerde tartıştığımız bir konu olan 'Nasıl DevOps konusunda kendimi geliştirebilirim' sorusu üzerine tartıştık. Umarız eğlenerek dinlersiniz.",
       "LongDescription": "",
+      "Guest": null,
       "Attendees": [
         "Barış Özaydın",
         "Deniz İrgin",
@@ -635,12 +679,14 @@
     },
     {
       "Id": 25,
+      "Season": 1,
       "Title": "Http2, Yazılımcının Yobazlaşması ve biraz da Ethereum",
       "Slug": "yirmibesinci-bolum-http2-yazilimcinin-yobazlasmasi-ve-biraz-da-ethereum",
       "SoundcloudId": "329400697",
       "YoutubeUrl": "https://www.youtube.com/embed/vkYUIIQPmpc",
       "ShortDescription": "Kayda karışan Mert'in bahçesindeki kuş sesleriyle beraber Http/2 ile başlayıp geçen hafta söz verdiğimiz gibi yazılımcının yobazlaşmasını konuştuk. Sonra da son zamanların en hype konusu olan Ethereum konusuna bağladık.",
       "LongDescription": "",
+      "Guest": null,
       "Attendees": [
         "Deniz İrgin",
         "Deniz Özgen",
@@ -661,12 +707,14 @@
     },
     {
       "Id": 26,
+      "Season": 1,
       "Title": "AWS ve Front end Altyapıları",
       "Slug": "yirmialtinci-bolum-aws-ve-front-end-altyapilari",
       "SoundcloudId": "331430961",
       "YoutubeUrl": "https://www.youtube.com/embed/-0QMYqXtbV8",
       "ShortDescription": "Deniz (İrgin) bir haftasonu boyunca uyumadan Lambda çalışınca konumuz mecburen AWS Lambda ve SNS oldu. Sonra inanmazsınız ama Angular kötüledik, vuejs övdük. Ayrıca patreon sayfamızı www.patreon.com/codefiction güncelledik ve neden patreon sayfamızı önemsediğimizi konuştuk.",
       "LongDescription": "",
+      "Guest": null,
       "Attendees": [
         "Deniz İrgin",
         "Deniz Özgen",
@@ -688,15 +736,16 @@
     },
     {
       "Id": 27,
+      "Season": 1,
       "Title": "Product Manager Ne İş Yapar?",
       "Slug": "yirmiyedinci-bolum-product-manager-ne-is-yapar",
       "SoundcloudId": "332574573",
       "YoutubeUrl": "https://www.youtube.com/embed/18V0rcHkOsM",
       "ShortDescription": "Bu bölümde Webrazzi'den Erman Taylan bize konuk oldu sonunda bir Product Manager ile 'Yahu ne iş yapar bu product manager? Product owner'dan farkı nedir? Nasıl özellikleri olmalı?' sorusunu tartıştık. On numara konuklu beş yıldızlı bir program oldu.",
       "LongDescription": "",
+      "Guest": "Erman Taylan",
       "Attendees": [
         "Barış Özaydın",
-        "Erman Taylan",
         "Deniz İrgin",
         "Deniz Özgen",
         "Fırat Özbolat",
@@ -716,15 +765,16 @@
     },
     {
       "Id": 28,
+      "Season": 1,
       "Title": "Daha çok AWS Lambda ve daha çok Ethereum",
       "Slug": "yirmisekizinci-bolum-daha-cok-aws-lambda-ve-daha-cok-ethereum",
       "SoundcloudId": "333622179",
       "YoutubeUrl": "https://www.youtube.com/embed/VzVFxrR9cbk",
       "ShortDescription": "Geçtiğimiz hafta çok güzel çalışıp sitemizi ve elimizdeki her şeyi AWS'e geçirdik. Haliyle bu hafta konuşmasak olmazdı. E tabi yine gündemimizde sıcak konulardan biri olarak Ethereum var. Madem dedik bu kadar füturistik konuları konuşuyoruz o zaman neden bilimkurguya da girmeyelim! Kapanışta da yerli amatör gruplara yer vermeye başladık, ilk şarkı DUDE'den geldi.",
       "LongDescription": "",
+      "Guest": null,
       "Attendees": [
         "Barış Özaydın",
-        "Erman Taylan",
         "Deniz İrgin",
         "Deniz Özgen",
         "Fırat Özbolat",
@@ -747,12 +797,14 @@
     },
     {
       "Id": 29,
+      "Season": 1,
       "Title": "Yazılım Eğitimi Nasıl Seçilir?",
       "Slug": "yirmidokuzuncu-bolum-yazilim-egitimi-nasil-secilir",
       "SoundcloudId": "334629100",
       "YoutubeUrl": "https://www.youtube.com/embed/z2VNniCaHZg",
       "ShortDescription": "Forumlarda ve gruplarda en çok sorulan sorulardan birini tartıştık bu sefer, Yazılım eğitimi nasıl seçersin? Hangi sitelerden online eğitim almak iyi olur? Yeni başlayan biri kendini nasıl geliştirir? Herkese bir şekilde sataştıktan sonra kapanışı on numara bir şarkıyla yaptık.",
       "LongDescription": "",
+      "Guest": null,
       "Attendees": [
         "Deniz İrgin",
         "Deniz Özgen",
@@ -772,14 +824,15 @@
     },
     {
       "Id": 30,
+      "Season": 1,
       "Title": "Gamification, Türkiye'de Bilgisayar Mühendisliği ve Akademisyenlik",
       "Slug": "otuzuncu-bolum-gamification-turkiyede-bilgisayar-muhendisligi-ve-akademisyenlik",
       "SoundcloudId": "335788044",
       "YoutubeUrl": "https://www.youtube.com/embed/ZRu1GvhOWXs",
       "ShortDescription": "Bu hafta yayınımıza 9 Eylül Üniversitesin'den Yr. Doç. Kökten Ulaş Birant konuk oldu. Gamification, Yazılım geliştirme süreçleri, Bilgisayar, Yazılım Mühendisliği ve Akademik Dünya - Yazılım Sektörü ilişkisi konularında oldukça keyifli bir sohbet gerçekleştirdik.",
       "LongDescription": "",
+      "Guest": "Kökten Ulaş Birant",
       "Attendees": [
-        "Kökten Ulaş Birant",
         "Ahmet Erdem Kahveci",
         "Deniz İrgin",
         "Deniz Özgen",
@@ -800,12 +853,14 @@
     },
     {
       "Id": 31,
+      "Season": 1,
       "Title": "Güvenli Yazılım Geliştirme Süreçleri",
       "Slug": "otuzbirinci-bolum-guvenli-yazilim-gelistirme-surecleri",
       "SoundcloudId": "339624716",
       "YoutubeUrl": "https://www.youtube.com/embed/WoJdZLhvv08",
       "ShortDescription": "Bu hafta yayınımıza Microsoft'da Senior PFE Developer olarak çalışan Fatih Durgut konuk oldu. Güvenli Yazılım Süreçlerini konuştuğumuz bu programda, Güvenliğe doyduk, her yönüyle güvenlik konuştuk, biraz da ürktük, hafif paranoya yaptık. Bazı arkadaşlarımızın ertesi gün acil toplantılar düzenledikleri söyleniyor.",
       "LongDescription": "",
+      "Guest": null,
       "Attendees": [
         "Barış Özaydın",
         "Fatih Durgut",
@@ -826,12 +881,14 @@
     },
     {
       "Id": 32,
+      "Season": 1,
       "Title": "Sezon Finali ve .Net Core",
       "Slug": "otuzikinci-bolum-sezon-finali-ve-net-core",
       "SoundcloudId": "340912503",
       "YoutubeUrl": "https://www.youtube.com/embed/XF_Fvg4Y8E4",
       "ShortDescription": "Bir iyi bir de kötü haberimiz var. Hangisinin iyi ya da kötü olduğuna siz karar verin! Sezon finali yapıyoruz, ama geri döneceğiz. Sezonu .Net Core özel programı ile açmıştık yeni versiyonuyla kapatıyoruz. Adamlar arada koskoca bir release yaptı biz hala konuşuyoruz. Yakında geri döneceğiz ama, merak etmeyin.",
       "LongDescription": "",
+      "Guest": null,
       "Attendees": [
         "Barış Özaydın",
         "Deniz İrgin",
@@ -853,6 +910,669 @@
         }
       ],
       "PublishDate": "2017-09-05"
+    },
+    {
+      "Id": 33,
+      "Season": 2,
+      "Title": "Firmanızı buluta nasıl taşırsınız?",
+      "Slug": "otuzucuncu-bolum-firmanizi-buluta-nasil-tasirsiniz",
+      "SoundcloudId": "369830558",
+      "YoutubeUrl": "https://www.youtube.com/embed/Ol-Xhk03R2Y",
+      "ShortDescription": "Evet uzun bir aradan sonra sezon açılışını yaptık. Sezon arasında ne yaptığımızın muhasebesiyle başladığımız programa, \"Firmanızı bulutu nasıl taşırsınız?\" sorusuyla devam ettik \"Neden bulut?\", \"Avantajları, dezavantajları nelerdir?, \"Geçiş sırasında nelere dikkat etmek gerekir?\" gibi sorulara kendi tecrübelerimizden yola çıkarak cevap aradık.",
+      "LongDescription": "",
+      "Guest": null,
+      "Attendees": [
+        "Barış Özaydın",
+        "Deniz İrgin",
+        "Deniz Özgen",
+        "Mert Susur",
+        "Uğur Atar",
+        "Onur Aykaç"
+      ],
+      "Tags": [
+        "cloud",
+        "cloud transformation"
+      ],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2017-12-15"
+    },
+    {
+      "Id": 34,
+      "Season": 2,
+      "Title": "A/B Testing Nedir? Nerelerde Kullanılmalı?",
+      "Slug": "otuzdorduncu-bolum-ab-testing-nedir-nerelerde-kullanilmali",
+      "SoundcloudId": "382441052",
+      "YoutubeUrl": "https://www.youtube.com/embed/FFfchKHgQmQ",
+      "ShortDescription": "Programımıza önce yeni eklediğimiz haberler bölümüyle başladık. Ardından A/B Test nedir? nasıl uygulanır? konusunu dünyadan ve kendi firmalarmızdan örneklerle tartıştık.",
+      "LongDescription": "",
+      "Guest": null,
+      "Attendees": [
+        "Deniz İrgin",
+        "Deniz Özgen",
+        "Fırat Özbolat",
+        "Mert Susur",
+        "Uğur Atar",
+        "Onur Aykaç"
+      ],
+      "Tags": [
+        "a/b testing"
+      ],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2018-01-12"
+    },
+    {
+      "Id": 35,
+      "Season": 2,
+      "Title": "Operasyonel projeler ve Yazılımın ürün olduğu projelerde yazılım",
+      "Slug": "otuzbesinci-bolum-operasyonel-projeler-ve-yazilimin-urun-oldugu-projelerde-yazilim",
+      "SoundcloudId": "415934040",
+      "YoutubeUrl": "https://www.youtube.com/embed/uXNA6hMkC58",
+      "ShortDescription": "Chainisium etkinliği, Github DDoS Attack, Webpack 4 ile başladığımız yayınımıza, Operasyonel projeler için yazılım geliştirmek ile yazılımın ürün olduğu projelerde yazılım geliştirmek arasındaki farkları tartışarak devam ettik.",
+      "LongDescription": "",
+      "Guest": null,
+      "Attendees": [
+        "Barış Özaydın",
+        "Deniz İrgin",
+        "Fırat Özbolat",
+        "Mert Susur",
+        "Uğur Atar",
+        "Onur Aykaç"
+      ],
+      "Tags": [
+        "Chainisium",
+        "Github",
+        "software development"
+      ],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2018-03-19"
+    },
+    {
+      "Id": 36,
+      "Season": 2,
+      "Title": "Mühendislik organizasyonlarının ölçeklenmesi",
+      "Slug": "otuzaltinci-bolum-muhendislik-organizasyonlarinin-olceklenmesi-turkce",
+      "SoundcloudId": "434411736",
+      "YoutubeUrl": "https://www.youtube.com/embed/fl58AzeiNwM",
+      "ShortDescription": "Yayınlamakta çok geç kaldığımız bu bölümümüze meltdown ve spectre saldırıyla başladık. Sonrasında ise 6 Ocakta yaptığımız meetup'da Uğur Atar'ın anlattığı, Mühendislik organizasyonlarının ölçeklendirilmesi konusunu masaya yatırdık.",
+      "LongDescription": "",
+      "Guest": null,
+      "Attendees": [
+        "Barış Özaydın",
+        "Deniz İrgin",
+        "Fırat Özbolat",
+        "Uğur Atar",
+        "Onur Aykaç"
+      ],
+      "Tags": [
+        "Meltdown",
+        "Spectre",
+        "software development",
+        "agile"
+      ],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2018-04-24"
+    }
+  ],
+  "P2Ps": [
+    {
+      "Id": 1,
+      "Season": 1,
+      "Title": "Yazılım Mimarlığı ve Docker",
+      "Slug": "birinci-bolum-yazilim-mimarligi-ve-docker-ibrahim-gunduz",
+      "SoundcloudId": "295625256",
+      "YoutubeUrl": "https://www.youtube.com/embed/75w1Z32Osu4",
+      "ShortDescription": "Yeni programımızda bu hafta konuğumuz yazılım mimarı İbrahim Gündüz ile Docker, iş görüşmeleri ve sanallaştırma çözümlerini konuştuk. Programın sonunda da yaklaşık 2000 TL değerinde Jetbrains lisansı süprizimiz var!",
+      "LongDescription": "",
+      "Guest": "İbrahim Gündüz",
+      "Attendees": [
+        "Barış Özaydın",
+        "Deniz İrgin",
+        "Fırat Özbolat",
+        "Uğur Atar",
+        "Onur Aykaç"
+      ],
+      "Tags": [
+        "software architecture",
+        "software architect",
+        "docker",
+        "container"
+      ],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2016-12-01"
+    },
+    {
+      "Id": 2,
+      "Season": 1,
+      "Title": "Türkiye ve Avrupa'da yazlım kültürü ve işe alım",
+      "Slug": "ikinci-bolum-turkiyede-ve-avrupada-yazilim-kulturu-ebru-meric-akgul",
+      "SoundcloudId": "297796062",
+      "YoutubeUrl": "https://www.youtube.com/embed/Kp_22j-uY5A",
+      "ShortDescription": "Bu hafta Ebru Meriç Akgül konuğumuz oldu. Kendisiyle işe alım sorunlarını, Turkiye ve Avrupa'daki yazılım  kültürlerini ve kadın yazılımcıları konustuk. Gerçekten çok keyifli ve öğretici bir sohbet oldu.",
+      "LongDescription": "",
+      "Guest": "Ebru Meriç Akgül",
+      "Attendees": [
+        "Barış Özaydın",
+        "Deniz İrgin",
+        "Fırat Özbolat",
+        "Uğur Atar",
+        "Onur Aykaç"
+      ],
+      "Tags": [
+        "software architecture",
+        "software architect",
+        "docker",
+        "container"
+      ],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2016-12-14"
+    },
+    {
+      "Id": 3,
+      "Season": 1,
+      "Title": "Yazılım Zanaatı",
+      "Slug": "ücüncü-bolum-yazilim-zaanati-burak-selim-senyurt",
+      "SoundcloudId": "296910653",
+      "YoutubeUrl": "https://www.youtube.com/embed/_ow4jek5HkY",
+      "ShortDescription": "Armut.com'un destegi ile hazirladigimiz P2P programimizda bu hafta Burak Selim Senyurt'u konuk ettik ve Turkiye'de yazilim hakkinda konustuk.",
+      "LongDescription": "",
+      "Guest": "Burak Selim Şenyurt",
+      "Attendees": [
+        "Deniz İrgin",
+        "Fırat Özbolat",
+        "Uğur Atar",
+        "Onur Aykaç"
+      ],
+      "Tags": [
+        "software craftsmanship"
+      ],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2016-12-09"
+    },
+    {
+      "Id": 4,
+      "Season": 1,
+      "Title": "Yapay Zeka, Chatbot'lar ve Google Yazılım Kültürü",
+      "Slug": "dorduncu-bolum-yapay-zeka-chatbotlar-google-yazilim-kulturu-mert-topcu",
+      "SoundcloudId": "298693971",
+      "YoutubeUrl": "https://www.youtube.com/embed/gMl9c_XXCd0",
+      "ShortDescription": "2016 yılının son podcast'inde Google Assistant ürününün proje müdürü Mert Topçu'yu konuk ettik. Kendisiyle Google yazılım kültürü, yapay zeka ve machine learning üzerine konuştuk.",
+      "LongDescription": "",
+      "Guest": "Mert Topçu",
+      "Attendees": [
+        "Barış Özaydın",
+        "Deniz İrgin",
+        "Fırat Özbolat",
+        "Mert Susur",
+        "Onur Aykaç"
+      ],
+      "Tags": [
+        "chatbot",
+        "ai",
+        "google",
+        "software culture"
+      ],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2016-12-20"
+    },
+    {
+      "Id": 5,
+      "Season": 1,
+      "Title": "Uzaktan Çalışma Modeli ve Crossover",
+      "Slug": "besinci-bolum-uzaktan-calisma-modeli-ve-crossover-sinan-ata",
+      "SoundcloudId": "307346199",
+      "YoutubeUrl": "https://www.youtube.com/embed/WdoTlwS3sBk",
+      "ShortDescription": "Crossover Türkiye Genel Müdürü Sinan Ata'yı ağırladığımız bölümümüzde uzaktan calışma modelini ve Crossover'i konustuk.",
+      "LongDescription": "",
+      "Guest": "Sinan Ata",
+      "Attendees": [
+        "Barış Özaydın",
+        "Deniz İrgin",
+        "Fırat Özbolat",
+        "Mert Susur",
+        "Uğur Atar"
+      ],
+      "Tags": [
+        "remote working",
+        "crossover"
+      ],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2017-02-12"
+    },
+    {
+      "Id": 6,
+      "Season": 2,
+      "Title": "Yalın Kod ve Engineering Manager ne iş yapar",
+      "Slug": "altinci-bolum-yalin-kod-ve-engineering-manager-ne-is-yapar",
+      "SoundcloudId": "401135331",
+      "YoutubeUrl": "https://www.youtube.com/embed/dUBNWHIiFFM",
+      "ShortDescription": "Bu hafta Bilgem Çakır'ı konuk ettik. Kendisiyle yalın kod, mikroservisler ve hype driven development, yazılım geliştirici geliştirme yapmadan önce neleri düşünmeli, görevi nedir? Ve son olarak Engineering Manager ne iş yapar? konularını konuştuk. Codefiction tarihindeki en uzun programlardan biri oldu.",
+      "LongDescription": "",
+      "Guest": "Bilgem Çakır",
+      "Attendees": [
+        "Barış Özaydın",
+        "Deniz İrgin",
+        "Fırat Özbolat",
+        "Onur Aykaç",
+        "Uğur Atar"
+      ],
+      "Tags": [
+        "pure code",
+        "engineering manager"
+      ],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2018-02-17"
+    }
+  ],
+  "Specials": [
+    {
+      "Id": 1,
+      "Season": 1,
+      "Title": "Microsoft Connect Özel Yayını",
+      "Slug": "birinci-bolum-microsoft-connect-ozel-yayini",
+      "SoundcloudId": "293723959",
+      "YoutubeUrl": "https://www.youtube.com/embed/aAbasKUg04Y",
+      "ShortDescription": "Microsoft Connect(); 2017 haftası sonrasında Microsoft tarafindan duyurulan yenilikler üzerine özel bir bölüm yaptık.",
+      "LongDescription": "",
+      "Attendees": [
+        "Barış Özaydın",
+        "Deniz İrgin",
+        "Fırat Özbolat",
+        "Onur Aykaç",
+        "Mert Susur"
+      ],
+      "Tags": [
+        "microsoft",
+        "microsoft connect"
+      ],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2016-10-19"
+    },
+    {
+      "Id": 2,
+      "Season": 1,
+      "Title": "Yeni Sezon Hazırlıkları, Blockchain, biraz ondan biraz bundan",
+      "Slug": "ikinci-yeni-sezon-hazirliklari-blockchain",
+      "SoundcloudId": null,
+      "YoutubeUrl": "https://www.youtube.com/embed/Os6HmCStffI",
+      "ShortDescription": "Sezon arasinda sizleri muhabbetimizden uzak birakmak istemedik ve meetup oncesi bu ozel ve ilk goruntulu canli yayinimizi yapalim dedik. Her zamanki genel goygoyumuzun yaninda, yeni sezondaki fikirlerimiz ve ucuncu meetup konumuz olan Blockchain ve Ethereum konularini tartistik.",
+      "LongDescription": "",
+      "Guest": "Erman Taylan",
+      "Attendees": [
+        "Onur Aykaç",
+        "Mert Susur",
+        "Deniz İrgin",
+        "Deniz Özgen",
+        "Fırat Özbolat",
+        "Barış Özaydın",
+        "Mert Susur"
+      ],
+      "Tags": [
+        "blockchain",
+        "ethereum"
+      ],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2018-04-24"
+    },
+    {
+      "Id": 3,
+      "Season": 2,
+      "Title": "Facebook Skandalı",
+      "Slug": "ucuncu-bolum-facebook-skandali",
+      "SoundcloudId": "434425854",
+      "YoutubeUrl": "https://www.youtube.com/embed/Zaw_IuD0JZI",
+      "ShortDescription": "Bu yayınımızda bütün dünyayı sarsan Facebook skandalını ve etkilerini konuştuk.",
+      "LongDescription": "",
+      "Attendees": [
+        "Uğur Atar",
+        "Fırat Özbolat",
+        "Mert Susur"
+      ],
+      "Tags": [
+        "facebook",
+        "privacy"
+      ],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2018-04-24"
+    }
+  ],
+  "Meetups": [],
+  "Videos": [
+    {
+      "Id": 1,
+      "Season": 1,
+      "Title": "Dotnet Core",
+      "Slug": "birinci-bolum-dotnet-core",
+      "YoutubeUrl": "https://www.youtube.com/embed/H3SxXT4yRC4",
+      "ShortDescription": "Codefiction podcast serisinin ilk bölümünde .Net Core ve Microsoft tarafındaki gelişmeleri konuştuk.",
+      "LongDescription": "",
+      "Type": "",
+      "Attendees": [
+        "Barış Özaydın",
+        "Deniz İrgin",
+        "Fırat Özbolat",
+        "Uğur Atar",
+        "Mert Susur"
+      ],
+      "Tags": [
+        "dotnet",
+        "dotnet core",
+        "csharp",
+        "microsoft"
+      ],
+      "Relations": [
+        {
+          "Type": "medium",
+          "Id": 1
+        }
+      ],
+      "PublishDate": "2016-10-28"
+    }
+  ],
+  "People": [
+    {
+      "Id": 1,
+      "Name": "Barış Özaydın",
+      "PicUrl": "",
+      "Type": "Crew",
+      "Linkedin": "https://www.linkedin.com/in/ozaydinb",
+      "Twitter": "https://twitter.com/obibaris",
+      "Medium": null,
+      "Github": "https://github.com/ozaydinb",
+      "Email": "ozaydin.baris@gmail.com",
+      "Website": null
+    },
+    {
+      "Id": 2,
+      "Name": "Deniz İrgin",
+      "PicUrl": "",
+      "Type": "Crew",
+      "Linkedin": "https://www.linkedin.com/in/deniz-irgin",
+      "Twitter": "https://twitter.com/denizirgin",
+      "Medium": "https://medium.com/@denizirgin_3389",
+      "Github": "https://github.com/Blind-Striker",
+      "Email": "denizirgin@gmail.com",
+      "Website": "https://denizirgin.com"
+    },
+    {
+      "Id": 3,
+      "Name": "Deniz Özgen",
+      "PicUrl": "",
+      "Type": "Crew",
+      "Linkedin": "https://www.linkedin.com/in/denizozgen",
+      "Twitter": "https://twitter.com/revolter00",
+      "Medium": null,
+      "Github": "https://github.com/ozgend",
+      "Email": "revolter00@gmail.com",
+      "Website": null
+    },
+    {
+      "Id": 4,
+      "Name": "Fırat Özbolat",
+      "PicUrl": "",
+      "Type": "Crew",
+      "Linkedin": "https://www.linkedin.com/in/f%C4%B1rat-%C3%B6zbolat-38835685",
+      "Twitter": "https://twitter.com/firatozbo",
+      "Medium": null,
+      "Github": "https://github.com/FiratOZ",
+      "Email": "firat.ozbolat@gmail.com",
+      "Website": null
+    },
+    {
+      "Id": 5,
+      "Name": "Mert Susur",
+      "PicUrl": "",
+      "Type": "Crew",
+      "Linkedin": "https://www.linkedin.com/in/msusur",
+      "Twitter": "https://twitter.com/MertSusur",
+      "Medium": "https://medium.com/@mertsusur",
+      "Github": "https://github.com/msusur",
+      "Email": "mail@mertsusur.com",
+      "Website": "http://www.mertsusur.com/"
+    },
+    {
+      "Id": 6,
+      "Name": "Uğur Atar",
+      "PicUrl": "",
+      "Type": "Crew",
+      "Linkedin": "https://www.linkedin.com/in/uguratar",
+      "Twitter": "https://twitter.com/uuratar",
+      "Medium": null,
+      "Github": "https://github.com/uguratar",
+      "Email": "Ugur@socialeyesapp.com",
+      "Website": null
+    },
+    {
+      "Id": 7,
+      "Name": "Onur Aykaç",
+      "PicUrl": "",
+      "Type": "Crew",
+      "Linkedin": "https://www.linkedin.com/in/onuar",
+      "Twitter": "https://twitter.com/onurgil",
+      "Medium": "https://medium.com/@onuraykac",
+      "Github": "https://github.com/onuar",
+      "Email": "onuraykac@gmail.com",
+      "Website": null
+    },
+    {
+      "Id": 8,
+      "Name": "Mahmut Gündoğdu",
+      "PicUrl": "",
+      "Type": "Crew",
+      "Linkedin": "https://www.linkedin.com/in/mahmut-g%C3%BCndo%C4%9Fdu-5b7a55ab",
+      "Twitter": null,
+      "Medium": "https://medium.com/@mgundogdu",
+      "Github": "https://github.com/mahmut-gundogdu",
+      "Email": null,
+      "Website": null
+    },
+    {
+      "Id": 9,
+      "Name": "Ahmet Erdem Kahveci",
+      "PicUrl": "",
+      "Type": "Crew",
+      "Linkedin": "https://www.linkedin.com/in/ahmet-erdem-kahveci-294043b3",
+      "Twitter": "https://twitter.com/AEKHVC",
+      "Medium": null,
+      "Github": "https://github.com/ahmeterdemkahveci",
+      "Email": "ahmeterdemkahveci@gmail.com",
+      "Website": null
+    },
+    {
+      "Id": 10,
+      "Name": "Uğur Aldanmaz",
+      "PicUrl": "",
+      "Type": "Crew",
+      "Linkedin": "https://www.linkedin.com/in/ugur-aldanmaz",
+      "Twitter": null,
+      "Medium": null,
+      "Github": "https://github.com/UgurAldanmaz",
+      "Email": "ugur.aldanmaz@outlook.com",
+      "Website": null
+    },
+    {
+      "Id": 11,
+      "Name": "İbrahim Gündüz",
+      "PicUrl": "",
+      "Type": "Guest",
+      "Linkedin": "https://www.linkedin.com/in/ibrahimgunduz",
+      "Twitter": "https://twitter.com/ibrahimgunduz34",
+      "Medium": "https://medium.com/@ibrahimgunduz34",
+      "Github": "https://github.com/ibrahimgunduz34",
+      "Email": null,
+      "Website": null
+    },
+    {
+      "Id": 12,
+      "Name": "Başar Köprücü",
+      "PicUrl": "",
+      "Type": "Guest",
+      "Linkedin": "https://www.linkedin.com/in/koprucu",
+      "Twitter": "https://twitter.com/sea_of_madness",
+      "Medium": null,
+      "Github": null,
+      "Email": null,
+      "Website": null
+    },
+    {
+      "Id": 13,
+      "Name": "Eray Acar",
+      "PicUrl": "",
+      "Type": "Guest",
+      "Linkedin": "https://www.linkedin.com/in/eray-acar-251b427b",
+      "Twitter": null,
+      "Medium": null,
+      "Github": null,
+      "Email": null,
+      "Website": null
+    },
+    {
+      "Id": 14,
+      "Name": "Ebru Meriç Akgül",
+      "PicUrl": "",
+      "Type": "Guest",
+      "Linkedin": "https://www.linkedin.com/in/ebrumericakgul",
+      "Twitter": "https://twitter.com/ebrumericakgul",
+      "Medium": null,
+      "Github": null,
+      "Email": null,
+      "Website": "http://shr-consulting.com/who-we-are/"
+    },
+    {
+      "Id": 14,
+      "Name": "Burak Selim Şenyurt",
+      "PicUrl": "",
+      "Type": "Guest",
+      "Linkedin": "https://www.linkedin.com/in/burak-selim-%C5%9Fenyurt-b15537ab",
+      "Twitter": "https://twitter.com/burakselyum",
+      "Medium": "https://medium.com/@burakselyum",
+      "Github": "https://github.com/buraksenyurt",
+      "Email": null,
+      "Website": "http://www.buraksenyurt.com/"
+    },
+    {
+      "Id": 15,
+      "Name": "Mert Topçu",
+      "PicUrl": "",
+      "Type": "Guest",
+      "Linkedin": "https://www.linkedin.com/in/merttopcu",
+      "Twitter": "https://twitter.com/mertto",
+      "Medium": "https://medium.com/@MertTopcu",
+      "Github": null,
+      "Email": null,
+      "Website": null
+    },
+    {
+      "Id": 16,
+      "Name": "Sinan Ata",
+      "PicUrl": "",
+      "Type": "Guest",
+      "Linkedin": "https://www.linkedin.com/in/sinanata",
+      "Twitter": "https://twitter.com/sinanata",
+      "Medium": "https://medium.com/@sinanata",
+      "Github": null,
+      "Email": null,
+      "Website": "http://sinanata.com/"
+    },
+    {
+      "Id": 17,
+      "Name": "Bilgem Çakır",
+      "PicUrl": "",
+      "Type": "Guest",
+      "Linkedin": "https://www.linkedin.com/in/bilgem-cakir-b6a8a937",
+      "Twitter": "https://twitter.com/bilgemcakir",
+      "Medium": "https://medium.com/@bilgemcakir",
+      "Github": null,
+      "Email": null,
+      "Website": null
+    },
+    {
+      "Id": 18,
+      "Name": "Erman Taylan",
+      "PicUrl": "",
+      "Type": "Guest",
+      "Linkedin": "https://www.linkedin.com/in/etaylan",
+      "Twitter": "https://twitter.com/etaylan",
+      "Medium": "https://medium.com/@etaylan",
+      "Github": null,
+      "Email": null,
+      "Website": "http://www.ermantaylan.com/"
+    },
+    {
+      "Id": 19,
+      "Name": "Kökten Ulaş Birant",
+      "PicUrl": "",
+      "Type": "Guest",
+      "Linkedin": "https://www.linkedin.com/in/k%C3%B6kten-ula%C5%9F-birant-937b8718",
+      "Twitter": "https://twitter.com/xtrmprgrmmr",
+      "Medium": null,
+      "Github": null,
+      "Email": null,
+      "Website": "http://debis.deu.edu.tr/DEUWeb/Icerik/Icerik.php?KOD=6784"
     }
   ]
 }

@@ -1,7 +1,7 @@
-﻿import { IPodcast } from './contracts/IPodcast';
-import { IRelation } from './contracts/IRelation';
+﻿import { IRelation } from './contracts/IRelation';
+import { IPodcast } from './contracts/IPodcast';
 
-export class Podcast implements IPodcast {
+export class P2P implements IPodcast {
   season: number;
   soundcloudId: string;
   guest: string;
