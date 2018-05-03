@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using Codefiction.CodefictionTech.CodefictionApi.Server.Data;
-using Codefiction.CodefictionTech.CodefictionApi.Server.Data.Contracts;
+using CodefictionApi.Core.Contracts;
+using CodefictionApi.Core.Data;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Codefiction.CodefictionTech.CodefictionApi.Server.ApiControllers
@@ -20,7 +20,7 @@ namespace Codefiction.CodefictionTech.CodefictionApi.Server.ApiControllers
         [Route("")]
         public async Task<JsonResult> Podcasts()
         {
-            IList<Podcast> podcasts = await _podcastRepository.GetPodcasts();
+            IEnumerable<Podcast> podcasts = await _podcastRepository.GetPodcasts();
 
             return new JsonResult(podcasts);
         }

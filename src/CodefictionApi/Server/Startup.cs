@@ -1,8 +1,10 @@
 using System;
+using System.IO;
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
-using Codefiction.CodefictionTech.CodefictionApi.Server.Data;
-using Codefiction.CodefictionTech.CodefictionApi.Server.Data.Contracts;
+using CodefictionApi.Core;
+using CodefictionApi.Core.Contracts;
+using CodefictionApi.Core.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -45,11 +47,10 @@ namespace Codefiction.CodefictionTech.CodefictionApi.Server
                     });
             });
 
-            ContainerBuilder builder = new ContainerBuilder();
+            var builder = new ContainerBuilder();
             builder.Populate(services);
 
-            builder.RegisterType<DatabaseProvider>().As<IDatabaseProvider>().InstancePerDependency();
-            builder.RegisterType<PodcastRepository>().As<IPodcastRepository>().InstancePerDependency();
+            builder.RegisterModule<ApiCoreModule>();
 
             Container = builder.Build();
 
@@ -58,6 +59,8 @@ namespace Codefiction.CodefictionTech.CodefictionApi.Server
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
+            File.ReadAllTextAsync("database.json");
+
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
 

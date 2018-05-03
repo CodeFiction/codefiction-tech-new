@@ -14,6 +14,7 @@
   <ItemGroup>
     <PackageReference Include="Autofac" Version="4.8.0" />
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.2.2" />
+    <PackageReference Include="AutoMapper" Version="6.2.2" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
     <PackageReference Include="Microsoft.DotNet.Watcher.Tools" Version="2.0.0" />
     <PackageReference Include="NETStandard.Library" Version="2.0.2" />
@@ -50,6 +51,14 @@
     <Content Update="database.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Server\Data\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CodefictionApi.Core\CodefictionApi.Core.csproj" />
   </ItemGroup>
 
   <Target Name="DebugNgBuild" BeforeTargets="Build" Condition="'$(Configuration)'=='Debug' AND !Exists('wwwroot')">
