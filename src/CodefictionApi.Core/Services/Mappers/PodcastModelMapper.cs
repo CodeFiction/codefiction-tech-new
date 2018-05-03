@@ -6,7 +6,7 @@ using CodefictionApi.Core.Contracts;
 using CodefictionApi.Core.Data;
 using CodefictionApi.Core.Models;
 
-namespace CodefictionApi.Core.Services
+namespace CodefictionApi.Core.Services.Mappers
 {
     public class PodcastModelMapper : IPodcastModelMapper
     {

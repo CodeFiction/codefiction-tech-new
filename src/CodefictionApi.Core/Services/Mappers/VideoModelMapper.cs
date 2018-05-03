@@ -6,7 +6,7 @@ using CodefictionApi.Core.Contracts;
 using CodefictionApi.Core.Data;
 using CodefictionApi.Core.Models;
 
-namespace CodefictionApi.Core.Services
+namespace CodefictionApi.Core.Services.Mappers
 {
     public class VideoModelMapper : IVideoModelMapper
     {
@@ -26,7 +26,7 @@ namespace CodefictionApi.Core.Services
 
             var videoModel = Mapper.Map<VideoModel>(video);
 
-            if (videoModel.Attendees == null || videoModel.Attendees.Length <= 0)
+            if (video.Attendees == null || video.Attendees.Length <= 0)
             {
                 return videoModel;
             }

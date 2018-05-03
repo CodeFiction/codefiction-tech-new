@@ -27,6 +27,8 @@ namespace CodefictionApi.Core.Models
 
         public string[] Tags { get; set; }
 
+        public Relation[] Relations { get; set; }
+
         public DateTime PublishDate { get; set; }
     }
 }

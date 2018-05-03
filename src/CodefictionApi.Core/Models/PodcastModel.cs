@@ -27,6 +27,8 @@ namespace CodefictionApi.Core.Models
 
         string[] Tags { get; set; }
 
+        Relation[] Relations { get; set; }
+
         DateTime PublishDate { get; set; }
     }
 
@@ -53,6 +55,8 @@ namespace CodefictionApi.Core.Models
         public Person[] Attendees { get; set; }
 
         public string[] Tags { get; set; }
+
+        public Relation[] Relations { get; set; }
 
         public DateTime PublishDate { get; set; }
     }

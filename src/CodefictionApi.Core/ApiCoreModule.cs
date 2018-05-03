@@ -2,6 +2,7 @@
 using CodefictionApi.Core.Contracts;
 using CodefictionApi.Core.Repositories;
 using CodefictionApi.Core.Services;
+using CodefictionApi.Core.Services.Mappers;
 
 namespace CodefictionApi.Core
 {

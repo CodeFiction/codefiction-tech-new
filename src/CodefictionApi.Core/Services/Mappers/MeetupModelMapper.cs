@@ -6,7 +6,7 @@ using CodefictionApi.Core.Contracts;
 using CodefictionApi.Core.Data;
 using CodefictionApi.Core.Models;
 
-namespace CodefictionApi.Core.Services
+namespace CodefictionApi.Core.Services.Mappers
 {
     public class MeetupModelMapper : IMeetupModelMapper
     {
@@ -53,6 +53,11 @@ namespace CodefictionApi.Core.Services
 
         public async Task<IEnumerable<MeetupModel>> Map(IEnumerable<Meetup> meetups)
         {
+            if (meetups == null)
+            {
+                return null;
+            }
+
             IList<MeetupModel> meetupModels = new List<MeetupModel>();
 
             foreach (Meetup meetup in meetups)

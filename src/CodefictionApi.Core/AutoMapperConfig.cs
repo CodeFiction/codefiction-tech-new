@@ -30,7 +30,15 @@ namespace CodefictionApi.Core
 
                 Mapper.Initialize(cfg =>
                 {
-                    cfg.CreateMap<IPodcast, IPodcastModel>()
+                    cfg.CreateMap<IPodcast, PodcastModel>()
+                       .ForMember(model => model.Attendees, expression => expression.Ignore())
+                       .ForMember(model => model.Guest, expression => expression.Ignore());
+
+                    cfg.CreateMap<IPodcast, P2PModel>()
+                       .ForMember(model => model.Attendees, expression => expression.Ignore())
+                       .ForMember(model => model.Guest, expression => expression.Ignore());
+
+                    cfg.CreateMap<IPodcast, SpecialModel>()
                        .ForMember(model => model.Attendees, expression => expression.Ignore())
                        .ForMember(model => model.Guest, expression => expression.Ignore());
 
