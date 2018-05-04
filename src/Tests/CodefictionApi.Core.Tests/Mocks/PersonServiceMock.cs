@@ -6,13 +6,13 @@ namespace CodefictionApi.Core.Tests.Mocks
 {
     public class PersonServiceMock : PersonService
     {
-        private PersonServiceMock(IMock<IPersonRepository> personRepository)
+        private PersonServiceMock(Mock<IPersonRepository> personRepository)
             : base(personRepository.Object)
         {
             PersonRepository = personRepository;
         }
 
-        public IMock<IPersonRepository> PersonRepository { get; set; }
+        public Mock<IPersonRepository> PersonRepository { get; set; }
 
 
         public static PersonServiceMock Create()

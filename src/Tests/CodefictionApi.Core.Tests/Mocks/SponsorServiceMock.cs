@@ -6,13 +6,13 @@ namespace CodefictionApi.Core.Tests.Mocks
 {
     public class SponsorServiceMock : SponsorService
     {
-        private SponsorServiceMock(IMock<ISponsorRepository> sponsorRepository)
+        private SponsorServiceMock(Mock<ISponsorRepository> sponsorRepository)
             : base(sponsorRepository.Object)
         {
             SponsorRepository = sponsorRepository;
         }
 
-        public IMock<ISponsorRepository> SponsorRepository { get; set; }
+        public Mock<ISponsorRepository> SponsorRepository { get; set; }
 
         public static SponsorServiceMock Create()
         {

@@ -42,5 +42,51 @@ namespace CodefictionApi.Core.Tests
             mock.MeetupModelMapper.Verify(repository => repository.Map(It.IsAny<IEnumerable<Meetup>>()), Times.Once);
             Assert.NotNull(meetupModels);
         }
+
+        [Fact]
+        public async Task GetMeetup_By_Id_Should_Return_Call_IMeetupRepository_GetMeetupById()
+        {
+            MeetupServiceMock mock = MeetupServiceMock.Create();
+
+            var id = 1;
+
+            var meetup = new Meetup() {Id = id, Title = "Dotnet Core"};
+
+            mock.MeetupRepository
+                .Setup(repository => repository.GetMeetupById(It.Is<int>(i => i == id)))
+                .ReturnsAsync(() => new Meetup() {Id = id, Title = "Dotnet Core"});
+
+            mock.MeetupModelMapper
+                .Setup(mapper => mapper.Map(It.IsAny<Meetup>()))
+                .ReturnsAsync(() => new MeetupModel());
+
+            MeetupModel meetupModel = await mock.GetMeetupById(id);
+
+            mock.MeetupRepository.Verify(repository => repository.GetMeetupById(It.IsAny<int>()), Times.Once);
+            Assert.NotNull(meetupModel);
+        }
+
+        [Fact]
+        public async Task GetMeetup_By_Id_Should_Return_Call_IMeetupModelMapper_Map()
+        {
+            MeetupServiceMock mock = MeetupServiceMock.Create();
+
+            var id = 1;
+
+            var meetup = new Meetup() { Id = id, Title = "Dotnet Core" };
+
+            mock.MeetupRepository
+                .Setup(repository => repository.GetMeetupById(It.Is<int>(i => i == id)))
+                .ReturnsAsync(() => new Meetup() { Id = id, Title = "Dotnet Core" });
+
+            mock.MeetupModelMapper
+                .Setup(mapper => mapper.Map(It.Is<Meetup>(m => m.Id == meetup.Id && m.Title == meetup.Title)))
+                .ReturnsAsync(() => new MeetupModel());
+
+            MeetupModel meetupModel = await mock.GetMeetupById(id);
+
+            mock.MeetupModelMapper.Verify(mapper => mapper.Map(It.IsAny<Meetup>()), Times.Once);
+            Assert.NotNull(meetupModel);
+        }
     }
 }

@@ -6,16 +6,16 @@ namespace CodefictionApi.Core.Tests.Mocks
 {
     public class VideoServiceMock : VideoService
     {
-        private VideoServiceMock(IMock<IVideoRepository> videoRepository, IMock<IVideoModelMapper> videoModelMapper)
+        private VideoServiceMock(Mock<IVideoRepository> videoRepository, Mock<IVideoModelMapper> videoModelMapper)
             : base(videoRepository.Object, videoModelMapper.Object)
         {
             VideoRepository = videoRepository;
             VideoModelMapper = videoModelMapper;
         }
 
-        public IMock<IVideoRepository> VideoRepository { get; set; }
+        public Mock<IVideoRepository> VideoRepository { get; set; }
 
-        public IMock<IVideoModelMapper> VideoModelMapper { get; set; }
+        public Mock<IVideoModelMapper> VideoModelMapper { get; set; }
 
         public static VideoServiceMock Create()
         {

@@ -6,16 +6,16 @@ namespace CodefictionApi.Core.Tests.Mocks
 {
     public class PodcastServiceMock : PodcastService
     {
-        private PodcastServiceMock(IMock<IPodcastRepository> podcastRepository, IMock<IPodcastModelMapper> podcastModelMapper)
+        private PodcastServiceMock(Mock<IPodcastRepository> podcastRepository, Mock<IPodcastModelMapper> podcastModelMapper)
             : base(podcastRepository.Object, podcastModelMapper.Object)
         {
             PodcastRepository = podcastRepository;
             PodcastModelMapper = podcastModelMapper;
         }
 
-        public IMock<IPodcastRepository> PodcastRepository { get; set; }
+        public Mock<IPodcastRepository> PodcastRepository { get; set; }
 
-        public IMock<IPodcastModelMapper> PodcastModelMapper { get; set; }
+        public Mock<IPodcastModelMapper> PodcastModelMapper { get; set; }
 
         public static PodcastServiceMock Create()
         {
