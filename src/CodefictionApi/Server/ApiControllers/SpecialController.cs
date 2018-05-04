@@ -6,42 +6,42 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Codefiction.CodefictionTech.CodefictionApi.Server.ApiControllers
 {
-    [Route("api/podcasts")]
-    public class PodcastController : Controller
+    [Route("api/specials")]
+    public class SpecialController : Controller
     {
         private readonly IPodcastService _podcastService;
 
-        public PodcastController(IPodcastService podcastService)
+        public SpecialController(IPodcastService podcastService)
         {
             _podcastService = podcastService;
         }
 
         [HttpGet]
         [Route("")]
-        public async Task<IActionResult> Podcasts()
+        public async Task<IActionResult> Specials()
         {
-            IEnumerable<IPodcastModel> podcastModels = await _podcastService.GetPodcasts();
+            IEnumerable<IPodcastModel> specials = await _podcastService.GetSpecials();
 
-            return Ok(podcastModels);
+            return Ok(specials);
         }
 
         [HttpGet]
         [Route("{slug}")]
-        public async Task<IActionResult> PodcastBySlug(string slug)
+        public async Task<IActionResult> SpecialBySlug(string slug)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-            IPodcastModel podcastModel = await _podcastService.GetPodcastBySlug(slug);
+            IPodcastModel specialModel = await _podcastService.GetSpecialBySlug(slug);
 
-            if (podcastModel == null)
+            if (specialModel == null)
             {
                 return NotFound();
             }
 
-            return Ok(podcastModel);
+            return Ok(specialModel);
         }        
     }
 }

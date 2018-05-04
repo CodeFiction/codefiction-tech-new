@@ -3,8 +3,6 @@ using System.IO;
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using CodefictionApi.Core;
-using CodefictionApi.Core.Contracts;
-using CodefictionApi.Core.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
