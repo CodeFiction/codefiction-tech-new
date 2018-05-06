@@ -45,6 +45,8 @@ namespace Codefiction.CodefictionTech.CodefictionApi.Server
                     });
             });
 
+            AutoMapperConfig.Init();
+
             var builder = new ContainerBuilder();
             builder.Populate(services);
 

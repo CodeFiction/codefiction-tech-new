@@ -8,6 +8,7 @@
     <AssemblyName>Codefiction.CodefictionTech.CodefictionApi</AssemblyName>
     <RootNamespace>Codefiction.CodefictionTech.CodefictionApi</RootNamespace>
     <TypeScriptToolsVersion>2.6</TypeScriptToolsVersion>
+    <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
   </PropertyGroup>
 
 

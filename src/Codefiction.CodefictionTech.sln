@@ -11,7 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodefictionApi.Tests", "Tes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodefictionApi.Core", "CodefictionApi.Core\CodefictionApi.Core.csproj", "{AC3DCEA5-7319-4EEF-9630-4A2746653B39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodefictionApi.Core.Tests", "Tests\CodefictionApi.Core.Tests\CodefictionApi.Core.Tests.csproj", "{547D777A-EF8A-416D-883C-8D371392FBD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodefictionApi.Core.Tests", "Tests\CodefictionApi.Core.Tests\CodefictionApi.Core.Tests.csproj", "{547D777A-EF8A-416D-883C-8D371392FBD1}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{BD916F0D-4772-427C-A385-0EB3027E2944}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodefictionApi.IntegrationTests", "Tests\CodefictionApi.IntegrationTests\CodefictionApi.IntegrationTests.csproj", "{0984F80B-AF49-4104-A6EE-CD1B8EE5695B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +39,14 @@ Global
 		{547D777A-EF8A-416D-883C-8D371392FBD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{547D777A-EF8A-416D-883C-8D371392FBD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{547D777A-EF8A-416D-883C-8D371392FBD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD916F0D-4772-427C-A385-0EB3027E2944}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD916F0D-4772-427C-A385-0EB3027E2944}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD916F0D-4772-427C-A385-0EB3027E2944}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD916F0D-4772-427C-A385-0EB3027E2944}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0984F80B-AF49-4104-A6EE-CD1B8EE5695B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0984F80B-AF49-4104-A6EE-CD1B8EE5695B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0984F80B-AF49-4104-A6EE-CD1B8EE5695B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0984F80B-AF49-4104-A6EE-CD1B8EE5695B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,6 +54,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{945A32D7-3F83-4C96-876A-CD6A7A1A9399} = {F7C617AE-18D0-4B7A-B628-F098D1E42155}
 		{547D777A-EF8A-416D-883C-8D371392FBD1} = {F7C617AE-18D0-4B7A-B628-F098D1E42155}
+		{0984F80B-AF49-4104-A6EE-CD1B8EE5695B} = {F7C617AE-18D0-4B7A-B628-F098D1E42155}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2A3DE6BB-F61D-4BEF-A021-B3442FCBC575}

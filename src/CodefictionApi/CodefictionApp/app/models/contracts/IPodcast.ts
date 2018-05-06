@@ -1,7 +1,18 @@
-﻿import { IContent } from './IContent';
+﻿import { IRelation } from './IRelation';
+import { IPerson } from './IPerson';
 
-export interface IPodcast extends IContent {
+export interface IPodcast {
+  id: number;
   season: number;
+  title: string;
+  slug: string;
   soundcloudId: string;
-  guest: string;
+  youtubeUrl: string;
+  shortDescription: string;
+  longDescription: string;
+  guest: IPerson;
+  attendees: IPerson[];
+  tags: string[];
+  relation: IRelation[];
+  publishDate: Date;
 }

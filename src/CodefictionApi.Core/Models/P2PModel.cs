@@ -1,4 +1,5 @@
 ﻿using System;
+using CodefictionApi.Core.Contracts;
 using CodefictionApi.Core.Data;
 
 namespace CodefictionApi.Core.Models
