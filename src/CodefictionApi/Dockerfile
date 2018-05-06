@@ -18,4 +18,4 @@ RUN dotnet publish -c Release -o /app
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app .
-ENTRYPOINT ["dotnet", "CodefictionApi.dll"]
+ENTRYPOINT ["dotnet", "Codefiction.CodefictionTech.CodefictionApi.dll"]
