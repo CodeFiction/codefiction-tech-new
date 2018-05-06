@@ -1,8 +1,8 @@
-FROM blindstriker/aspnetcore-angular-universal:latest AS base
+FROM blindstriker/aspnetcore-angular-universal:0.7 AS base
 WORKDIR /app
 EXPOSE 80
 
-FROM blindstriker/aspnetcore-build-angular-universal:latest AS build
+FROM blindstriker/aspnetcore-build-angular-universal:0.7 AS build
 WORKDIR /src
 COPY Codefiction.CodefictionTech.sln ./
 COPY CodefictionApi/CodefictionApi.csproj CodefictionApi/

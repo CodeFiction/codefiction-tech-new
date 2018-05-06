@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
+using CodefictionApi.Core.Contracts;
 using CodefictionApi.Core.Models;
 using CodefictionApi.Tests.Mocks;
 using Microsoft.AspNetCore.Mvc;
